@@ -8,7 +8,7 @@ local libuci = require("uci")
 local fs = require("nixio.fs")
 local config = require("lime.config")
 local utils = require("lime.utils")
-local ip_legacy = require("lime.ipl")
+local ip = require("libluciip")
 
 network.limeIfNamePrefix="lm_net_"
 network.protoParamsSeparator=":"
@@ -33,7 +33,7 @@ function network.generate_host(ipprefix, hexsuffix)
     hexsuffix = hexsuffix:sub((ipprefix[1] == 4) and -8 or -32)
 
     -- convert hexsuffix into a cidr instance, using same prefix and family of ipprefix
-    local ipsuffix = ip_legacy.Hex(hexsuffix, ipprefix:prefix(), ipprefix[1])
+    local ipsuffix = ip.Hex(hexsuffix, ipprefix:prefix(), ipprefix[1])
 
     local ipaddress = ipprefix
     -- if it's a network prefix, fill in host bits with ipsuffix
@@ -69,8 +69,8 @@ function network.primary_address(offset)
     local m4, m5, m6 = tonumber(pm[4], 16), tonumber(pm[5], 16), tonumber(pm[6], 16)
     local hexsuffix = utils.hex((m4 * 256*256 + m5 * 256 + m6) + offset)
 
-    ipv4_template = network.generate_host(ip_legacy.IPv4(ipv4_template), hexsuffix)
-    ipv6_template = network.generate_host(ip_legacy.IPv6(ipv6_template), hexsuffix)
+    ipv4_template = network.generate_host(ip.IPv4(ipv4_template), hexsuffix)
+    ipv6_template = network.generate_host(ip.IPv6(ipv6_template), hexsuffix)
 
     ipv4_template[3] = tonumber(ipv4_maskbits)
     ipv6_template[3] = tonumber(ipv6_maskbits)
