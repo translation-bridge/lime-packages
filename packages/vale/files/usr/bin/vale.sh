@@ -31,14 +31,14 @@ vale() { client_mac="$1" ; voucher="$2"
       vale_used_epoch=$now_epoch
       vale_used_macs=$client_mac
     elif echo "$vale_row" | grep -iq "^${voucher}," ; then
-      vale_used_epoch="$(grep -i "$voucher" "$vale_db" | cut -d , -f 3)"
-      vale_used_macs="$(grep -i "$voucher" "$vale_db" | cut -d , -f 4)"
+      vale_used_epoch="$(echo $vale_row | cut -d , -f 2)"
+      vale_used_macs="$(echo $vale_row | cut -d , -f 3)"
       if ! (echo $vale_used_macs | grep -q $client_mac) ; then
         vale_used_macs="$vale_used_macs+$client_mac"
       fi
     fi
     vale_expire_epoch="$(($vale_used_epoch + $vale_secs))"
-    sed -i "s/$voucher.*$/$voucher,$vale_used_epoch,$vale_used_macs/i" "$vale_db"
+    sed -i "s/,$voucher,.*$/,$voucher,$vale_used_epoch,$vale_used_macs/i" "$vale_db"
     vale_remaining_secs="$(($vale_expire_epoch - $now_epoch))"
   fi
 
