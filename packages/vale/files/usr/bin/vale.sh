@@ -11,6 +11,7 @@ free_limit_up=128 #kbps
 vale_blacklist=/etc/nodogsplash/vale/blacklist_$(date +%Y%m).log
 vale_db=/etc/nodogsplash/vale/db.csv
 vale_secs=2592000 #seconds = 30 days
+warn_before_secs=216000 #seconds = 60 hours
 
 now_epoch="$(date +%s)"
 free_first_use_epoch="$(cat "$vale_blacklist" | grep "$client_mac" | cut -d ' ' -f 1 | head -n 1)"
@@ -30,16 +31,11 @@ vale() { client_mac="$1" ; voucher="$2"
     if echo "$vale_row" | grep -iq "^${voucher},,$" ; then
       vale_used_epoch=$now_epoch
       vale_used_macs=$client_mac
-    elif echo "$vale_row" | grep -iq "^${voucher}," ; then
-      vale_used_epoch="$(echo $vale_row | cut -d , -f 2)"
-      vale_used_macs="$(echo $vale_row | cut -d , -f 3)"
-      if ! (echo $vale_used_macs | grep -q $client_mac) ; then
-        vale_used_macs="$vale_used_macs+$client_mac"
-      fi
+
+      vale_expire_epoch="$(($vale_used_epoch + $vale_secs))"
+      sed -i "s/,$voucher,.*$/,$voucher,$vale_used_epoch,$vale_used_macs/i" "$vale_db"
+      vale_remaining_secs="$(($vale_expire_epoch - $now_epoch))"
     fi
-    vale_expire_epoch="$(($vale_used_epoch + $vale_secs))"
-    sed -i "s/,$voucher,.*$/,$voucher,$vale_used_epoch,$vale_used_macs/i" "$vale_db"
-    vale_remaining_secs="$(($vale_expire_epoch - $now_epoch))"
   fi
 
   [ "$vale_remaining_secs" -lt 0 ] && vale_remaining_secs=0
@@ -76,6 +72,7 @@ if [ "$action" == "auth_voucher" ] ; then
   fi
 
 elif [ "$action" == "auth_status" ] ; then
-  # do nothing, captive portal should be seen once a day minimum
-  true
+  if [ "$vale_remaining_secs" -gt "$warn_before_secs" ] ; then
+    echo "$vale_remaining_secs" 102400 102400
+  fi
 fi
