@@ -1,0 +1,45 @@
+Example of file /etc/config/lime for the next scenario:
+
+* protocols OLSR + BMX + BAT-ADV
+* OLSR runs on top of the network devices
+* BMX and BAT-ADV run in VLAN
+* OLSR runs only in specified network devices
+* BMX and BAT-ADV run in all network devices
+
+
+
+	config lime network
+		option primary_interface eth0
+		option bmx6_over_batman	'false'
+		option main_ipv4_address '192.0.2.0/24'
+		option main_ipv6_address '2001:db8::%M5:%M6/64'
+		list protocols adhoc
+		list protocols lan
+		list protocols anygw
+		list protocols batadv:%N1
+		list protocols bmx6:13
+	
+	config net ether1
+		option linux_name eth1
+		option olsr_ip 10.1.1.1/32
+		list protocols olsr
+		list protocols bmx6:13
+		list protocols batadv:%N1
+	
+	config net wifi2
+		option linux_name wlan0-adhoc
+		option olsr_ip 10.1.1.2/32 
+		list protocols olsr      
+		list protocols bmx6:13
+		list protocols batadv:%N1
+	
+	config wifi radio0
+		list modes 'adhoc'
+		list modes 'ap'
+		option channel_2ghz '1'
+		option channel_5ghz '48'
+		option adhoc_mcast_rate '6000'
+		option adhoc_ssid 'libre-mesh'
+		option adhoc_bssid 'd2:ca:ff:ee:ba:be'
+		option ap_ssid 'LiMe'
+	
