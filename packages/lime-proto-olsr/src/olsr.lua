@@ -36,16 +36,32 @@ function olsr.configure(args)
 	uci:save("olsrd")
 end
 
-function olsr.setup_interface(ifname, args)
+function olsr.setup_interface(ifname, args, extraArgs)
+
 	if not args["specific"] then
 		if ifname:match("^wlan%d+.ap") then return end
 	end
 
-	local vlanId = args[2] or 14
-	local vlanProto = args[3] or "8021ad"
-	local nameSuffix = args[4] or "_olsr"
-	local ipPrefixTemplate = args[5] or "169.254.%M5.%M6/16"
-	local owrtInterfaceName, linux802adIfName, owrtDeviceName = network.createVlanIface(ifname, vlanId, nameSuffix, vlanProto)
+	local vlanId = args[2] or nil
+	local owrtInterfaceName
+	if vlanId ~= nil then
+		local vlanProto = args[3] or "8021ad"
+		local nameSuffix = args[4] or "_olsr"
+		owrtInterfaceName, linux802adIfName, owrtDeviceName = 
+			network.createVlanIface(ifname, vlanId, nameSuffix, vlanProto)
+	else
+		owrtInterfaceName = network.createEthIface(ifname)
+	end
+
+	-- if olsr_ip is defined use it, else use global or default
+	local ipPrefixTemplate = nil
+	for k,v in pairs(extraArgs) do
+		if k == "olsr_ip" then ipPrefixTemplate = v end
+	end
+	if ipPrefixTemplate == nil then
+		ipPrefixTemplate = args[5] or "169.254.%M5.%M6/16"
+	end
+
 	local macAddr = network.get_mac(utils.split(ifname, ".")[1])
 	local ipAddr = ip.IPv4(utils.applyMacTemplate10(ipPrefixTemplate, macAddr))
 

@@ -38,6 +38,13 @@ function network.generate_host(ipprefix, hexsuffix)
 	return ipprefix:add(num)
 end
 
+function network.get_owrtInterfaceName(linuxBaseIfname)
+        --! sanitize passed linuxBaseIfName for constructing uci section name
+        --! because only alphanumeric and underscores are allowed
+	local owrtInterfaceName = network.limeIfNamePrefix..linuxBaseIfname:gsub("[^%w_]", "_")
+	return owrtInterfaceName
+end
+
 function network.primary_address(offset)
     local offset = offset or 0
     local pm = network.primary_mac()
@@ -215,20 +222,41 @@ function network.configure()
 		if owrtIf then
 			deviceProtos = owrtIf["protocols"]
 			flags["specific"] = true
+
 		end
 
 		for _,protoParams in pairs(deviceProtos) do
 			local args = utils.split(protoParams, network.protoParamsSeparator)
 			if args[1] == "manual" then break end -- If manual is specified do not configure interface
-			local protoModule = "lime.proto."..args[1]
+			local protoName = args[1]
+			local protoModule = "lime.proto."..protoName
+			local extraArgs = {}
+
+			-- Get the possible extra args for protocol specified as <proto>_<option> in config
+			if owrtIf then
+			    for k,v in pairs(owrtIf) do
+			        if utils.split(k,'_')[1] == protoName then extraArgs[k] = v end
+			    end
+			end
+
 			for k,v in pairs(flags) do args[k] = v end
 			if utils.isModuleAvailable(protoModule) then
 				local proto = require(protoModule)
-				xpcall(function() proto.configure(args) ; proto.setup_interface(device, args) end,
+				xpcall(function() proto.configure(args,extraArgs) ; proto.setup_interface(device,args,extraArgs) end,
 				       function(errmsg) print(errmsg) ; print(debug.traceback()) end)
 			end
 		end
 	end
+end
+
+function network.createEthIface(linuxBaseIfname)
+	local owrtInterfaceName = network.get_owrtInterfaceName(linuxBaseIfname)
+	local uci = libuci:cursor()
+	uci:set("network", owrtInterfaceName, "interface")
+	uci:set("network", owrtInterfaceName, "ifname", linuxBaseIfname)
+	uci:set("network", owrtInterfaceName, "auto", 1)
+	uci:save("network")
+	return owrtInterfaceName
 end
 
 function network.createVlanIface(linuxBaseIfname, vid, openwrtNameSuffix, vlanProtocol)
@@ -236,9 +264,7 @@ function network.createVlanIface(linuxBaseIfname, vid, openwrtNameSuffix, vlanPr
 	openwrtNameSuffix = openwrtNameSuffix or ""
 	vid = tonumber(vid)
 	
-	--! sanitize passed linuxBaseIfName for constructing uci section name
-	--! because only alphanumeric and underscores are allowed
-	local owrtInterfaceName = network.limeIfNamePrefix..linuxBaseIfname:gsub("[^%w_]", "_")
+	local owrtInterfaceName = network.get_owrtInterfaceName(linuxBaseIfname)
 	local owrtDeviceName = owrtInterfaceName
 	local linux802adIfName = linuxBaseIfname
 
