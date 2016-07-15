@@ -15,11 +15,9 @@ function proto.configure(args)
 	proto.configured = true
 
 	local ipv4, ipv6 = network.primary_address()
-	local localAS = args[2] or 64496
-	local bgp_exchanges = args[3]
-	if bgp_exchanges then bgp_exchanges = utils.split(bgp_exchanges,",")
-	else bgp_exchanges = {} end
-	local meshPenalty = args[4] or 8
+	local localAS = args["localAS"] or 64496
+	local bgp_exchanges = args["exchanges"] or {}
+	local meshPenalty = args["meshPenalty"] or 8
 
 	local mp = "bgp_path.prepend("..localAS..");\n"
 	for i=1,meshPenalty do

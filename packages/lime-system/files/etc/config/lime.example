@@ -27,11 +27,14 @@ config lime network
 	list protocols adhoc                                                   # List of protocols configured by LiMe, some of these require the relative package "lime-proto-...". Note that if you set here some protocols, you overwrite the *whole* list of protocols set in /etc/config/lime-defaults
 	list protocols lan
 	list protocols anygw
-	list protocols batadv:%N1                                              # Parametrizable with %Nn (which depends from ap_ssid), note that this will range between 16 and 272
-	list protocols bmx6:13
+	list protocols batadv:%N1                                              # The number after : is the id of the vlan used for batadv protocol, it is parametrizable with %N[1-3] which depends from ap_ssid and range between 16 and 272. If not specified %N1 is used. If 0 is specified the protocol will not use vlan most protocols may misbehave in this case. Vlan id between 1 and 15 are reserved for default vlan id of supported L3 protocols take care of avoiding vlan id overlapping between protocols as this may cause unpredictable behavior.
+	list protocols bmx6:13                                                 # The number after : is the id of the vlan used for bmx6 protocol. If not specified the default value is used. If 0 is specified the protocol will not use vlan most protocols may misbehave in this case. Vlan id between 1 and 15 are reserved for default vlan id of supported L3 protocols take care of avoiding vlan id overlapping between protocols as this may cause unpredictable behavior.
 #	list protocols olsr:14
 #	list protocols olsr6:15
-#	list protocols olsr2:16
+#	list protocols olsr2:12
+#	list protocols bgp                                                     # bgp proto ignore positional (:) arguments because it have been developed recently after the decision of switching to named arguments.
+#	option bgp_localAS                                                     # Local AS number used by BGP.
+#	list bgp_exchanges 'bmx7'                                              # List of protocols which will exchange route with BGP. In case of route exchange between mesh routing protocols and BGP, the AS number must be the same and unique for the whole contiguos L3 mesh, if multiple isolated L3 mesh are present which route via BGP the AS number must be kept UNIQUE for each L3 cloud. If this list is empty or not set route exchanging between BGP and other routing protocols is not configured by default. At moment only bmx7 is supported for route exchange (more protocols coming soon).
 #	list resolvers 8.8.8.8                                                 # DNS servers node will use
 #	list resolvers 2001:4860:4860::8844
 
