@@ -3,9 +3,9 @@ Example of file /etc/config/lime for the next scenario:
 * protocols OLSR + BMX + BAT-ADV
 * OLSR runs on top of the network devices
 * BMX and BAT-ADV run in VLAN
-* OLSR runs only in specified network devices
+* OLSR runs only in specified network devices without vlan (0)
 * BMX and BAT-ADV run in all network devices
-
+* BEWARE having two L3 mesh routing protocols running at same time is not a tested scenario, and probably degenerate rapidly in a big hard to debug networking mess!!!
 
 
 	config lime network
@@ -16,24 +16,9 @@ Example of file /etc/config/lime for the next scenario:
 		list protocols adhoc
 		list protocols lan
 		list protocols anygw
-		list protocols batadv:%N1
-		list protocols bmx6:13
+		list protocols batadv
 	
-	config net ether1
-		option linux_name eth1
-		option olsr_ip 10.1.1.1/32
-		list protocols olsr
-		list protocols bmx6:13
-		list protocols batadv:%N1
-	
-	config net wifi2
-		option linux_name wlan0-adhoc
-		option olsr_ip 10.1.1.2/32 
-		list protocols olsr      
-		list protocols bmx6:13
-		list protocols batadv:%N1
-	
-	config wifi radio0
+	config lime wireless
 		list modes 'adhoc'
 		list modes 'ap'
 		option channel_2ghz '1'
@@ -43,3 +28,9 @@ Example of file /etc/config/lime for the next scenario:
 		option adhoc_bssid 'd2:ca:ff:ee:ba:be'
 		option ap_ssid 'LiMe'
 	
+	config net wifi2
+		option linux_name wlan0-adhoc
+		option olsr_ip 10.1.1.M5/32 
+		list protocols olsr:0
+		list protocols bmx6:13
+		list protocols batadv:%N1
