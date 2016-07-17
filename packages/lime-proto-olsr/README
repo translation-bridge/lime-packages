@@ -11,13 +11,13 @@ Example of file /etc/config/lime for the next scenario:
 	config lime network
 		option primary_interface eth0
 		option bmx6_over_batman	'false'
-		option main_ipv4_address '192.0.2.0/24'
+		option main_ipv4_address '10.1.%N1.0/24'
 		option main_ipv6_address '2001:db8::%M5:%M6/64'
 		list protocols adhoc
 		list protocols lan
 		list protocols anygw
 		list protocols batadv
-	
+
 	config lime wireless
 		list modes 'adhoc'
 		list modes 'ap'
@@ -27,10 +27,10 @@ Example of file /etc/config/lime for the next scenario:
 		option adhoc_ssid 'libre-mesh'
 		option adhoc_bssid 'd2:ca:ff:ee:ba:be'
 		option ap_ssid 'LiMe'
-	
+
 	config net wifi2
 		option linux_name wlan0-adhoc
-		option olsr_ip 10.1.1.M5/32 
+		option olsr_ip 10.2.%N1.%M5/32 
 		list protocols olsr:0
 		list protocols bmx6:13
 		list protocols batadv:%N1
