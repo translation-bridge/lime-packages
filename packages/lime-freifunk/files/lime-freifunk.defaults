@@ -25,7 +25,19 @@ set lime.wifi.channel_5ghz=48
 set lime.wifi.htmode_5ghz=HT40
 set lime.wifi.adhoc_mcast_rate_5ghz=9000
 
+set firewall.@defaults[0].input=ACCEPT
+set firewall.@defaults[0].output=ACCEPT
+set firewall.@defaults[0].forward=ACCEPT
+set firewall.@zone[0].input=ACCEPT
+set firewall.@zone[0].output=ACCEPT
+set firewall.@zone[0].forward=ACCEPT
+set firewall.@zone[1].input=ACCEPT
+set firewall.@zone[1].output=ACCEPT
+set firewall.@zone[1].forward=ACCEPT
+
+commit firewall
 commit lime
 EOF
+
 
 exit 0
