@@ -22,12 +22,12 @@ define Package/$(PKG_NAME)
   CATEGORY:=LiMe
   MAINTAINER:=Daniel Golle <daniel@makrotopia.org>
   URL:=http://libre-mesh.org
-  DEPENDS:=+lime-system +lime-proto-batadv
+  DEPENDS:=+lime-system +lime-proto-batadv +batctl +lime-proto-bmx6 +lime-proto-anygw +dnsmasq-lease-share +dnsmasq-distributed-hosts +lime-eb-ip-tables
 
 endef
 
 define Package/$(PKG_NAME)/description
-	Metapackage depending on all the required to run an freifunk-style node
+	Metapackage depending on all the required to run a libre-mesh freifunk-style node
 endef
 
 define Build/Compile

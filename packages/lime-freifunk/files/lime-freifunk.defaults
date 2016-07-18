@@ -3,9 +3,11 @@
 [ -e /etc/config/lime ] || exit 0
 
 uci -q batch <<EOF
+set lime.system=lime
 set lime.system.zonename='Europe/Berlin'
 set lime.system.timezone='CET-1CEST,M3.5.0,M10.5.0/3'
 
+set lime.network=lime
 set lime.network.main_ipv6_address='fdf4:3407:%N1%N2:%N300::/64'
 del lime.network.protocols
 add_list lime.network.protocols=adhoc
