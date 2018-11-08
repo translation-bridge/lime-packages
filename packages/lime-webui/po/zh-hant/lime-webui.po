@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2018-11-01 07:13:51+0000\n"
+"PO-Revision-Date: 2018-11-08 09:04:52+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,7 +55,7 @@ msgstr "校驗和"
 
 #
 msgid "Community name"
-msgstr "社群名稱"
+msgstr "社區名稱"
 
 #
 msgid "Contact"
@@ -255,7 +255,7 @@ msgstr "帶斜線符號用於此節點的主 IPv6 設置（例如：2001:db8::1/
 
 #
 msgid "The name of your network community"
-msgstr "您的網路社群名稱"
+msgstr "您的網絡社區名稱"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
