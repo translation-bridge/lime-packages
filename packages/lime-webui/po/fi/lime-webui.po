@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2018-11-29 16:56:40+0000\n"
+"PO-Revision-Date: 2019-01-14 08:38:09+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -196,7 +196,7 @@ msgstr ""
 
 #
 msgid "Network SSID"
-msgstr ""
+msgstr "Verkon SSID"
 
 #
 msgid "Notes"
@@ -224,7 +224,7 @@ msgstr ""
 
 #
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
