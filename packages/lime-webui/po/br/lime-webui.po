@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-02-25 09:49:12+0000\n"
+"PO-Revision-Date: 2019-03-07 15:17:56+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -183,7 +183,7 @@ msgstr "Hed uc'hek evit al liammoù e metroù (levezon vras war an  efedusted)"
 
 #
 msgid "Mesh BSSID"
-msgstr ""
+msgstr "BSSID ar mailh"
 
 #
 msgid "Name"
@@ -247,7 +247,7 @@ msgstr ""
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
-msgstr ""
+msgstr "An IPv4 pennañ kefluniet evit ar skoulm-se, gant an notadur CIDR(da sk. 1.2.3.4/24)"
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
@@ -267,11 +267,11 @@ msgstr "Er restr skeudenn pellgarget n'eus ket a furmad embreget. Gwiriit emaoc'
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr "Pellgargañ ur skeudenn hizivaat reizhiad LibreMesh amañ evit erlerc'hiañ ar mikromezaint bremañ."
+msgstr "Pellgargañ ur skeudenn hizivaat reizhiad LibreMesh amañ evit erlerc'hiañ ar mikromeziant bremañ."
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr "Pellgargit ur skeudenn hizivaat reizhiad kenglotus amañ evit erlerc'hiañ ar mikromeziant bremañ. Askit  « Mirout an arventennoù » evit mirout ar c'heflunidur bremañ (ezhomm zo eus ur skeudenn mikromeziant kenglotus)."
+msgstr "Pellgargañ ur skeudenn kenglotus gant hizivaat reizhiad amañ evit erlerc'hiañ ar mikromeziant bremañ. Askit « Mirout an arventennoù » evit mirout ar c'hefluniadur bremañ (ezhomm zo eus ur skeudenn mikromeziant kenglotus)."
 
 #
 msgid "Verify"
