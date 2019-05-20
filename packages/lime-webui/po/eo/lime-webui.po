@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-05-17 10:25:49+0000\n"
+"PO-Revision-Date: 2019-05-20 11:54:56+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +23,7 @@ msgstr "Pri"
 
 #
 msgid "Access Point ESSID (usually name of your network)"
-msgstr ""
+msgstr "ESSID de Atingopunkto (kutime la nomo de via reto)"
 
 #
 msgid "Advanced"
@@ -43,11 +43,11 @@ msgstr ""
 
 #
 msgid "Channel 2.4 GHz"
-msgstr ""
+msgstr "Kanalo de 2,4 GHz"
 
 #
 msgid "Channel 5 GHz"
-msgstr ""
+msgstr "Kanalo de 5 GHz"
 
 #
 msgid "Checksum"
@@ -71,7 +71,7 @@ msgstr "Landkodo"
 
 #
 msgid "Country code used for WiFi radios"
-msgstr ""
+msgstr "Landokodo de Vifia radioaparato"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
@@ -131,7 +131,7 @@ msgstr ""
 
 #
 msgid "Keep settings"
-msgstr ""
+msgstr "Ne ŝanĝi agordojn"
 
 #
 msgid "Latitude"
@@ -183,7 +183,7 @@ msgstr ""
 
 #
 msgid "Mesh BSSID"
-msgstr ""
+msgstr "BSSID de Maŝo"
 
 #
 msgid "Name"
@@ -191,11 +191,11 @@ msgstr "Nomo"
 
 #
 msgid "Name for this node"
-msgstr ""
+msgstr "Nomo de ĉi tiu nodo"
 
 #
 msgid "Network SSID"
-msgstr ""
+msgstr "Reta SSID"
 
 #
 msgid "Notes"
@@ -211,7 +211,7 @@ msgstr ""
 
 #
 msgid "Rebooting..."
-msgstr ""
+msgstr "Restartante..."
 
 #
 msgid "SHA256"
