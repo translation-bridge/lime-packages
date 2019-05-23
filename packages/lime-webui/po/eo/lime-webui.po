@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-05-20 11:54:56+0000\n"
+"PO-Revision-Date: 2019-05-23 12:22:49+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr "Altnivela"
 
 #
 msgid "Attended System Upgrade"
-msgstr ""
+msgstr "Asistata Sistema Ĝisdatigo"
 
 #
 msgid "Cancel"
@@ -39,7 +39,7 @@ msgstr "Nuligi"
 
 #
 msgid "Changes applied."
-msgstr ""
+msgstr "Faris ŝanĝojn."
 
 #
 msgid "Channel 2.4 GHz"
@@ -75,11 +75,11 @@ msgstr "Landokodo de Vifia radioaparato"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
-msgstr ""
+msgstr "Implicita kanalo uzata por radioaparatoj de 2,4 GHz"
 
 #
 msgid "Default channel used for 5 GHz radios"
-msgstr ""
+msgstr "Implicita kanalo uzata por radioaparatoj de 5 GHz"
 
 #
 msgid "Distance"
@@ -91,23 +91,23 @@ msgstr "Retpoŝta adreso"
 
 #
 msgid "Flash Firmware"
-msgstr ""
+msgstr "Skribi Firmprogramaron"
 
 #
 msgid "Flash image..."
-msgstr ""
+msgstr "Skribi memorkopion..."
 
 #
 msgid "Flash new firmware image"
-msgstr ""
+msgstr "Skribi novan memorkopion de firmprogramaro"
 
 #
 msgid "Flash operations"
-msgstr ""
+msgstr "Skribi operaciojn"
 
 #
 msgid "Flashing..."
-msgstr ""
+msgstr "Skribante..."
 
 #
 msgid "General"
@@ -123,11 +123,11 @@ msgstr "Bildo"
 
 #
 msgid "Internet Prioritized Gateway (bmx6)"
-msgstr ""
+msgstr "Interreta Priorita Kluzo (bmx6)"
 
 #
 msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
-msgstr ""
+msgstr "Ŝajne vi estas provanta skribi memorkopion kiu estas tro granda por la fulmomemoro; bonvolu kontroli la memorkopian dosieron!"
 
 #
 msgid "Keep settings"
@@ -139,7 +139,7 @@ msgstr "Latitudo"
 
 #
 msgid "Latitude (this can be also configured in location tab)"
-msgstr ""
+msgstr "Latitudo (ankaŭ argordebla en la loko-langeto)"
 
 #
 msgid "Loading"
@@ -159,7 +159,7 @@ msgstr "Longitudo"
 
 #
 msgid "Longitude (this can be also configured in location tab)"
-msgstr ""
+msgstr "Longitudo (ankaŭ argordebla en la loko-langeto)"
 
 #
 msgid "MD5"
@@ -179,7 +179,7 @@ msgstr "Mapa loko"
 
 #
 msgid "Max distance for the links in meters (big impact on performance)"
-msgstr ""
+msgstr "Maksimuma distanco por la ligiloj en metroj (grave ŝanĝas efikecon)"
 
 #
 msgid "Mesh BSSID"
@@ -203,11 +203,11 @@ msgstr "Notoj"
 
 #
 msgid "Notes that will be shown on console login and will be at hand here."
-msgstr ""
+msgstr "Notoj montrotaj je konzola ensalutado kaj ĉi tie."
 
 #
 msgid "Proceed"
-msgstr ""
+msgstr "Daŭrigi"
 
 #
 msgid "Rebooting..."
@@ -227,7 +227,7 @@ msgstr "Grando"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr ""
+msgstr "Domaĝe, mankas subteno por sistema ĝisdatigo; vi devas skribi permane novan firmprogramaron. Bonvolu vidi la vikion por instrukcioj de instalado por specifaj aparatoj."
 
 #
 msgid "System"
@@ -239,11 +239,11 @@ msgstr "Sistemaj Notoj"
 
 #
 msgid "The BSSID (WiFi network identifier) used for the mesh network"
-msgstr ""
+msgstr "La BSSID (identigilo de Vifia reto) uzata por la maŝreto"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr ""
+msgstr "La memorkopio estis alŝutita. Jen la listitaj kontrolsumo kaj grando de dosiero; komparu ilin kun la originala dosiero por konfirmi integrecon de dateno.<br />Alklaku la butonon \"Daŭrigi\" ĉi-suban por ekskribi."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
@@ -259,7 +259,7 @@ msgstr "La nomo de via reta komunumo"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
-msgstr ""
+msgstr "Skribante sur la sistemon nun.<br />NE MALSTARTIGU LA APARATON!</br />Atendu iom da minutoj antaŭ provo al rekonektado. Eble necesos refreŝigi la adreson de via komputilo por reatingi la aparaton, depende de via agordo."
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
@@ -279,11 +279,11 @@ msgstr "Konfirmi"
 
 #
 msgid "Waiting for changes to be applied..."
-msgstr ""
+msgstr "Atendante faradon de ŝanĝoj..."
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
-msgstr ""
+msgstr "Vi povas elekti Kluzon por prioratigi vian trafikon tra ĉi tiu nodo."
 
 #
 msgid "Your email (not required)"
