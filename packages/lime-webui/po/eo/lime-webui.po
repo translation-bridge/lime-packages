@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-05-23 12:22:49+0000\n"
+"PO-Revision-Date: 2019-05-27 14:45:37+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -263,15 +263,15 @@ msgstr "Skribante sur la sistemon nun.<br />NE MALSTARTIGU LA APARATON!</br />At
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
-msgstr ""
+msgstr "La alŝutita memorkopio ne enhavas subtenatan dosieraranĝon. Certigu ke vi elektis la ĝeneralan memorkopian dosieraranĝon de via platformo."
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr ""
+msgstr "Alŝuti ĉi tien sistemo-ĝisdatigan memorkopion por LibreMesh, por anstataŭigi la rulatan firmprogramaron."
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr ""
+msgstr "Alŝuti ĉi tien sistemo-ĝisdatigan memorkopion, por anstataŭigi la rulatan firmprogramaron. Alklaku \"Ne ŝanĝi agordojn\" por ne ŝanĝi la aktualajn agordojn (tio postulas kongruan firmprogramaran memorkopion)."
 
 #
 msgid "Verify"
