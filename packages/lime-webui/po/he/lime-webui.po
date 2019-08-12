@@ -1,0 +1,296 @@
+# Translation of LibreMesh - Web UI to Hebrew (עברית)
+# Exported from translatewiki.net
+#
+# Author: Erelon
+# Author: YaronSh
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2019-08-12 10:19:14+0000\n"
+"X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"X-Generator: MediaWiki 1.34.0-alpha; Translate 2019-04-24\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#
+msgid "(%s available)"
+msgstr "(%s פנויים)"
+
+#
+msgid "About"
+msgstr "אודות"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr ""
+
+#
+msgid "Advanced"
+msgstr "מתקדם"
+
+#
+msgid "Attended System Upgrade"
+msgstr ""
+
+#
+msgid "Cancel"
+msgstr "ביטול"
+
+#
+msgid "Changes applied."
+msgstr "השינויים חלו."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "ערוץ 2.4 גה״ץ"
+
+#
+msgid "Channel 5 GHz"
+msgstr "ערוץ 5 גה״ץ"
+
+#
+msgid "Checksum"
+msgstr "סכום ספרות"
+
+#
+msgid "Community name"
+msgstr "שם קהילה"
+
+#
+msgid "Contact"
+msgstr "יצירת קשר"
+
+#
+msgid "Contact information"
+msgstr "מידע ליצירת קשר"
+
+#
+msgid "Country code"
+msgstr "קוד מדינה"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "קוד המדינה משמש ליחידות WiFi"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr ""
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr ""
+
+#
+msgid "Distance"
+msgstr ""
+
+#
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#
+msgid "Flash Firmware"
+msgstr ""
+
+#
+msgid "Flash image..."
+msgstr ""
+
+#
+msgid "Flash new firmware image"
+msgstr ""
+
+#
+msgid "Flash operations"
+msgstr ""
+
+#
+msgid "Flashing..."
+msgstr ""
+
+#
+msgid "General"
+msgstr "כללי"
+
+#
+msgid "Hostname"
+msgstr "שם מארח"
+
+#
+msgid "Image"
+msgstr "תמונה"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr ""
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr ""
+
+#
+msgid "Keep settings"
+msgstr "לשמור הגדרות"
+
+#
+msgid "Latitude"
+msgstr "קו רוחב"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "קו רוחב (אפשר להגדיר גם בלשונית המיקום)"
+
+#
+msgid "Loading"
+msgstr "טעינה"
+
+#
+msgid "Location"
+msgstr "מיקום"
+
+#
+msgid "Logout"
+msgstr "יציאה"
+
+#
+msgid "Longitude"
+msgstr "קו אורך"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "קו אורך (אפשר להגדיר גם בלשונית המיקום)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "IPv4 ראשי"
+
+#
+msgid "Main IPv6"
+msgstr "IPv6 ראשי"
+
+#
+msgid "Map location"
+msgstr "מיקום במפה"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr ""
+
+#
+msgid "Mesh BSSID"
+msgstr ""
+
+#
+msgid "Name"
+msgstr "שם"
+
+#
+msgid "Name for this node"
+msgstr ""
+
+#
+msgid "Network SSID"
+msgstr ""
+
+#
+msgid "Notes"
+msgstr "הערות"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr ""
+
+#
+msgid "Proceed"
+msgstr ""
+
+#
+msgid "Rebooting..."
+msgstr ""
+
+#
+msgid "SHA256"
+msgstr ""
+
+#
+msgid "Simple Config"
+msgstr ""
+
+#
+msgid "Size"
+msgstr ""
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr ""
+
+#
+msgid "System"
+msgstr "מערכת"
+
+#
+msgid "System Notes"
+msgstr "הערות מערכת"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr ""
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr ""
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr ""
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr ""
+
+#
+msgid "The name of your network community"
+msgstr "שם קהילת הרשת שלך"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr ""
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr ""
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr ""
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr ""
+
+#
+msgid "Verify"
+msgstr "אימות"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr ""
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr ""
+
+#
+msgid "Your email (not required)"
+msgstr "הדוא״ל שלך (לא חובה)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "שם או כינוי (לא חובה)"
+
