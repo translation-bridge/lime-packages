@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: Gomoko
+# Author: Verdy p
 # Author: Wladek92
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-06-06 16:03:55+0000\n"
+"PO-Revision-Date: 2019-09-09 17:19:45+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +25,7 @@ msgstr "À propos"
 
 #
 msgid "Access Point ESSID (usually name of your network)"
-msgstr "Point d'accès ESSID (habituellement le nom de votre réseau)"
+msgstr "Point d’accès ESSID (habituellement le nom de votre réseau)"
 
 #
 msgid "Advanced"
@@ -44,11 +45,11 @@ msgstr "Modifications appliquées."
 
 #
 msgid "Channel 2.4 GHz"
-msgstr "Canal 2,4GHz"
+msgstr "Canal 2,4 GHz"
 
 #
 msgid "Channel 5 GHz"
-msgstr "Canal 5GHz"
+msgstr "Canal 5 GHz"
 
 #
 msgid "Checksum"
@@ -72,15 +73,15 @@ msgstr "Code du pays"
 
 #
 msgid "Country code used for WiFi radios"
-msgstr "Code du pays utilisé pour les radios WiFi"
+msgstr "Code du pays utilisé pour les émissions WiFi"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
-msgstr "Canal par défaut utilisé pour les radios à 2.4 GHz"
+msgstr "Canal par défaut utilisé pour les émissions à 2,4 GHz"
 
 #
 msgid "Default channel used for 5 GHz radios"
-msgstr "Canal par défaut utilisé pour les radios à 5GHz"
+msgstr "Canal par défaut utilisé pour les émissions à 5 GHz"
 
 #
 msgid "Distance"
@@ -124,7 +125,7 @@ msgstr "Image"
 
 #
 msgid "Internet Prioritized Gateway (bmx6)"
-msgstr "Passerelle Internet priorisée (bmx6)"
+msgstr "Passerelle internet priorisée (bmx6)"
 
 #
 msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
@@ -180,7 +181,7 @@ msgstr "Emplacement sur la carte"
 
 #
 msgid "Max distance for the links in meters (big impact on performance)"
-msgstr "Distance maximale pour les liens en mètres (gros impact sur les performances)"
+msgstr "Distance maximale des liaisons en mètres (impact important sur les performances)"
 
 #
 msgid "Mesh BSSID"
@@ -244,15 +245,15 @@ msgstr "Le BSSID (identifiant de réseau WiFi) utilisé pour la maille réseau"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr "L'image de flash a été téléversée. Ci-dessous le code de contrôle et la taille du fichier, à comparer avec le fichier d’origine pour s’assurer de l’intégrité des données.<br /> Cliquez sur « Effectuer » ci-dessous pour démarrer la procédure de flash."
+msgstr "L'image de flash a été téléversée. Ci-dessous le code de contrôle et la taille du fichier, à comparer avec le fichier d’origine pour s’assurer de l’intégrité des données.<br /> Cliquez sur « Effectuer » ci-dessous pour lancer la procédure de flashage."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
-msgstr "L’IPv4 principal configuré pour ce nœud, avec la notation CIDR (par ex. 1.2.3.4/24)"
+msgstr "L’IPv4 principal configuré pour ce nœud et le masque de sous-réseau en notation CIDR (par ex. 1.2.3.4/24)"
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
-msgstr "L’IPv6 principale configurée pour ce nœud, avec la notation CIDR (par ex. 2001:db8::1/64)"
+msgstr "L’IPv6 principale configurée pour ce nœud et le masque de sous-réseau en notation CIDR (par ex. 2001:db8::1/64)"
 
 #
 msgid "The name of your network community"
@@ -264,7 +265,7 @@ msgstr "Le système est en cours de flashage.<br /> N’ÉTEIGNEZ PAS L’APPARE
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
-msgstr "Le fichier image téléchargé ne contient pas de format supporté. Assurez-vous que vous choisissez le format d’image générique pour votre plateforme."
+msgstr "Le fichier image téléchargé ne contient aucun format pris en charge. Assurez-vous que vous choisissez le format d’image générique pour votre plateforme."
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
