@@ -2,12 +2,13 @@
 # Exported from translatewiki.net
 #
 # Author: Gomoko
+# Author: Urhixidur
 # Author: Verdy p
 # Author: Wladek92
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-09-09 17:19:45+0000\n"
+"PO-Revision-Date: 2019-09-16 16:56:26+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -229,7 +230,7 @@ msgstr "Taille"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr "Désolé, il n’y a pas de support présent de mise à jour système ; une nouvelle image du micrologiciel doit être flashée manuellement. Veuillez vous reporter au wiki pour les instructions d’installation spécifiques de l’appareil."
+msgstr "Désolé, il n’y a pas de prise en charge de sysupgrade ; une nouvelle image du micrologiciel doit être flashée manuellement. Veuillez vous reporter au wiki pour les instructions d’installation spécifiques de l’appareil."
 
 #
 msgid "System"
