@@ -1,21 +1,22 @@
 # Translation of LibreMesh - Web UI to Turkish (Türkçe)
 # Exported from translatewiki.net
 #
+# Author: Grkn gll
 # Author: Hedda
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-06-06 16:03:55+0000\n"
+"PO-Revision-Date: 2019-10-14 15:29:55+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
-"X-Generator: MediaWiki 1.34.0-alpha; Translate 2019-04-24\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #
 msgid "(%s available)"
-msgstr "(%s müsait)"
+msgstr "(%s available)"
 
 #
 msgid "About"
@@ -63,7 +64,7 @@ msgstr "İletişim"
 
 #
 msgid "Contact information"
-msgstr "İletişim bilgisi"
+msgstr "İletişim bilgileri"
 
 #
 msgid "Country code"
@@ -71,7 +72,7 @@ msgstr "Ülke kodu"
 
 #
 msgid "Country code used for WiFi radios"
-msgstr "WiFi radyolar için kullanılan ülke kodu"
+msgstr "WiFi radyoları için kullanılan ülke kodu"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
