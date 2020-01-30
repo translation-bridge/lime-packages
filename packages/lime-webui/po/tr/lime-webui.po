@@ -1,12 +1,13 @@
 # Translation of LibreMesh - Web UI to Turkish (Türkçe)
 # Exported from translatewiki.net
 #
+# Author: BaRaN6161 TURK
 # Author: Grkn gll
 # Author: Hedda
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-14 15:29:55+0000\n"
+"PO-Revision-Date: 2020-01-30 14:52:06+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,7 @@ msgstr ""
 
 #
 msgid "(%s available)"
-msgstr "(%s available)"
+msgstr "(%s mevcut)"
 
 #
 msgid "About"
@@ -228,7 +229,7 @@ msgstr "Boyut"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr "Üzgünüz, mevcut sysupgrade desteği yok; Yeni bir yazılım görüntüsü manuel olarak flashlanmalıdır. Lütfen aygıta özel yükleme talimatları için viki'ye bakın."
+msgstr "Üzgünüz, mevcut sysupgrade desteği yok; Yeni bir yazılım görüntüsü manüel olarak flashlanmalıdır. Lütfen aygıta özel yükleme talimatları için vikiye bakın."
 
 #
 msgid "System"
