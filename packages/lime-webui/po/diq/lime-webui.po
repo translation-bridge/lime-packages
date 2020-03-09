@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-02-27 16:15:09+0000\n"
+"PO-Revision-Date: 2020-03-09 15:38:51+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,15 +41,15 @@ msgstr "Bıtexelne"
 
 #
 msgid "Changes applied."
-msgstr ""
+msgstr "Vurnayışi tetbiq biyê"
 
 #
 msgid "Channel 2.4 GHz"
-msgstr ""
+msgstr "Kanal 2.4 GHz"
 
 #
 msgid "Channel 5 GHz"
-msgstr ""
+msgstr "Kanal 5 GHz"
 
 #
 msgid "Checksum"
