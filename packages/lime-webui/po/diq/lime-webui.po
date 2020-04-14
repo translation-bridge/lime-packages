@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-03-09 15:38:51+0000\n"
+"PO-Revision-Date: 2020-04-14 03:27:25+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,7 +25,7 @@ msgstr "Heqa cı de"
 
 #
 msgid "Access Point ESSID (usually name of your network)"
-msgstr ""
+msgstr "Nuqtay resayışi ESSID (degmesi namey torra şıma)"
 
 #
 msgid "Advanced"
@@ -33,7 +33,7 @@ msgstr "Herayên"
 
 #
 msgid "Attended System Upgrade"
-msgstr ""
+msgstr "Tewr bıyaye rocaney sistemi"
 
 #
 msgid "Cancel"
@@ -53,7 +53,7 @@ msgstr "Kanal 5 GHz"
 
 #
 msgid "Checksum"
-msgstr ""
+msgstr "Checksum"
 
 #
 msgid "Community name"
@@ -77,11 +77,11 @@ msgstr "Kodê dewletano ke seba radyoyanê WiFi rê gureniyeno"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
-msgstr ""
+msgstr "Seba radyoyanê 2.4 GHz hesabyaye kenal"
 
 #
 msgid "Default channel used for 5 GHz radios"
-msgstr ""
+msgstr "Seba radyoyanê 5 GHz hesabyaye kenal"
 
 #
 msgid "Distance"
@@ -93,23 +93,23 @@ msgstr "E-poste"
 
 #
 msgid "Flash Firmware"
-msgstr ""
+msgstr "Firmwarey flash kerê"
 
 #
 msgid "Flash image..."
-msgstr ""
+msgstr "Flash resımi..."
 
 #
 msgid "Flash new firmware image"
-msgstr ""
+msgstr "Newe resımi firmwarey flash kerê"
 
 #
 msgid "Flash operations"
-msgstr ""
+msgstr "Kara flash kerê"
 
 #
 msgid "Flashing..."
-msgstr ""
+msgstr "Flash beno..."
 
 #
 msgid "General"
@@ -125,7 +125,7 @@ msgstr "Resım"
 
 #
 msgid "Internet Prioritized Gateway (bmx6)"
-msgstr ""
+msgstr "Verorbiyaye Sopa Torra İnterneti (bmx6)"
 
 #
 msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
