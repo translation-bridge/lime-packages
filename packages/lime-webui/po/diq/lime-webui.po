@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-04-14 03:27:25+0000\n"
+"PO-Revision-Date: 2020-04-16 15:10:24+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -133,7 +133,7 @@ msgstr ""
 
 #
 msgid "Keep settings"
-msgstr ""
+msgstr "Eyara bışevekne"
 
 #
 msgid "Latitude"
@@ -141,7 +141,7 @@ msgstr "Verıniye"
 
 #
 msgid "Latitude (this can be also configured in location tab)"
-msgstr ""
+msgstr "Disleg (ne kışta taba lokasyoni ra zi şeno vıraziyo )"
 
 #
 msgid "Loading"
@@ -161,7 +161,7 @@ msgstr "Derganiye"
 
 #
 msgid "Longitude (this can be also configured in location tab)"
-msgstr ""
+msgstr "Evleg (ne kışta taba lokasyoni ra zi şeno vıraziyo )"
 
 #
 msgid "MD5"
@@ -281,7 +281,7 @@ msgstr "Araşt kerê"
 
 #
 msgid "Waiting for changes to be applied..."
-msgstr ""
+msgstr "Seba vurnayışi tetbiq pawiyeno..."
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
