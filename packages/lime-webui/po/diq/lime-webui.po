@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-04-16 15:10:24+0000\n"
+"PO-Revision-Date: 2020-04-27 14:48:51+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -181,7 +181,7 @@ msgstr "Lokasyonê xerita"
 
 #
 msgid "Max distance for the links in meters (big impact on performance)"
-msgstr ""
+msgstr "Cınsê metreyi ra gıreyan rê maksimum mesafe (performans sera tesiro gırdo)"
 
 #
 msgid "Mesh BSSID"
@@ -205,7 +205,7 @@ msgstr "Noti"
 
 #
 msgid "Notes that will be shown on console login and will be at hand here."
-msgstr ""
+msgstr "Veraniya konsol de mocniyaye no tiya de bıbê"
 
 #
 msgid "Proceed"
@@ -241,7 +241,7 @@ msgstr "Notê Sistemi"
 
 #
 msgid "The BSSID (WiFi network identifier) used for the mesh network"
-msgstr ""
+msgstr "Serva tora Meshi karnıyaye BSSID (şınastoğê tora WiFi)"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
@@ -249,11 +249,11 @@ msgstr ""
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
-msgstr ""
+msgstr "Serva nê gozgırey xeta vırandıri mocnayışi ya vıraziyaye esas IPv4 (mesela. 1.2.3.4/24)"
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
-msgstr ""
+msgstr "Serva nê gozgırey xeta vırandıri vıraziyaye esas IPv6 (mesela. 2001:db8::1/64))"
 
 #
 msgid "The name of your network community"
@@ -269,7 +269,7 @@ msgstr ""
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr ""
+msgstr "Serva guriyaye nuseyê firmwarey vurnayışi rê asayışê LibreMesh sysupgrade barê tiyay kerê"
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
@@ -285,7 +285,7 @@ msgstr "Seba vurnayışi tetbiq pawiyeno..."
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
-msgstr ""
+msgstr "Be nê gozgırey karnayışiya veraniya trafikê ho rê yew raya tor şenê bıweçine."
 
 #
 msgid "Your email (not required)"
