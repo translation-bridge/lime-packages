@@ -6,12 +6,12 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-04-27 14:48:50+0000\n"
+"PO-Revision-Date: 2020-05-07 15:11:36+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: br\n"
-"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2020-04-20\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #
@@ -244,7 +244,7 @@ msgstr "Ar BSSID (anaouder rouedad WiFi) implijet evit ar mailh rouedad"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr ""
+msgstr "Enporzhiet eo bet ar skeudenn flash. Dindan emañ ar c'hod kontrolliñ ha ment ar restr, da geñveriañ gant hini ar restr orin evit gwiriañ eo anterin ar roadennoù.<br /> Klikañ ar \"Seveniñ\" a-is evit kregiñ gant an argerzh flash."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
