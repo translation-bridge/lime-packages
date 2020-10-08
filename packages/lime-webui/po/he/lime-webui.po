@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-07-27 16:24:47+0000\n"
+"PO-Revision-Date: 2020-10-08 13:55:53+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr "(%s פנויים)"
 
 #
 msgid "About"
-msgstr "אודות"
+msgstr "על אודות"
 
 #
 msgid "Access Point ESSID (usually name of your network)"
@@ -76,39 +76,39 @@ msgstr "קוד המדינה משמש ליחידות WiFi"
 
 #
 msgid "Default channel used for 2.4 GHz radios"
-msgstr ""
+msgstr "ערוץ בררת מחדל שמשמש לתשדורות ‎2.4 GHz"
 
 #
 msgid "Default channel used for 5 GHz radios"
-msgstr ""
+msgstr "ערוץ בררת מחדל שמשמש לתשדורות ‎5 GHz"
 
 #
 msgid "Distance"
-msgstr ""
+msgstr "מרחק"
 
 #
 msgid "Email"
-msgstr "דואר אלקטרוני"
+msgstr "דוא״ל"
 
 #
 msgid "Flash Firmware"
-msgstr ""
+msgstr "לצרוב קושחה"
 
 #
 msgid "Flash image..."
-msgstr ""
+msgstr "לצרוב דמות…"
 
 #
 msgid "Flash new firmware image"
-msgstr ""
+msgstr "לצרוב דמות קושחה חדשה"
 
 #
 msgid "Flash operations"
-msgstr ""
+msgstr "פעולות צריבה"
 
 #
 msgid "Flashing..."
-msgstr ""
+msgstr "מתבצעת צריבה…"
 
 #
 msgid "General"
@@ -180,7 +180,7 @@ msgstr "מיקום במפה"
 
 #
 msgid "Max distance for the links in meters (big impact on performance)"
-msgstr ""
+msgstr "מרחק מרבי של הקישורים במטרים (השפעה ניכרת על הביצועים)"
 
 #
 msgid "Mesh BSSID"
@@ -192,7 +192,7 @@ msgstr "שם"
 
 #
 msgid "Name for this node"
-msgstr ""
+msgstr "שם המפרק הזה"
 
 #
 msgid "Network SSID"
@@ -216,15 +216,15 @@ msgstr ""
 
 #
 msgid "SHA256"
-msgstr ""
+msgstr "SHA256"
 
 #
 msgid "Simple Config"
-msgstr ""
+msgstr "הגדרות פשוטות"
 
 #
 msgid "Size"
-msgstr ""
+msgstr "גודל"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
@@ -248,7 +248,7 @@ msgstr ""
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
-msgstr ""
+msgstr "כתובת ה־IPv4 העיקרית שהוגדרה למפרק הזה, עם לוכסן (למשל: 1.2.3.4/24)"
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
@@ -280,11 +280,11 @@ msgstr "אימות"
 
 #
 msgid "Waiting for changes to be applied..."
-msgstr ""
+msgstr "בהמתנה להחלת השינויים…"
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
-msgstr ""
+msgstr "ניתן לבחור שער גישה כדי לתעדף את העברת התעבורה שלך דרך המפרק הזה."
 
 #
 msgid "Your email (not required)"
