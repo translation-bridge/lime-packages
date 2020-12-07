@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: Haniavis
+# Author: NikosLikomitros
 # Author: Nikosgranturismogt
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-10-29 12:20:24+0000\n"
+"PO-Revision-Date: 2020-12-07 14:46:20+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

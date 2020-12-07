@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-10-29 12:20:24+0000\n"
+"PO-Revision-Date: 2020-12-07 14:46:20+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -229,7 +229,7 @@ msgstr "Gırdiye"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr ""
+msgstr "Malesef, enewke peştiya sysupgrade çıniya; Asayışê firmwareyê beweti menuel flaş bıbo. Cihazi rê xas talimatanê bar kerdışi rê bıewni rê wiki."
 
 #
 msgid "System"
