@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-10-29 12:20:25+0000\n"
+"PO-Revision-Date: 2020-12-22 12:58:44+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -124,11 +124,11 @@ msgstr "תמונה"
 
 #
 msgid "Internet Prioritized Gateway (bmx6)"
-msgstr ""
+msgstr "שער גישה מתועדף לאינטרנט (bmx6)"
 
 #
 msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
-msgstr ""
+msgstr "נראה שניסית לצרוב דמות שלא תואמת לזיכרון הפלאש, נא לאמת את קובץ הדמות!"
 
 #
 msgid "Keep settings"
@@ -196,7 +196,7 @@ msgstr "שם המפרק הזה"
 
 #
 msgid "Network SSID"
-msgstr ""
+msgstr "שם הרשת (SSID)"
 
 #
 msgid "Notes"
@@ -204,15 +204,15 @@ msgstr "הערות"
 
 #
 msgid "Notes that will be shown on console login and will be at hand here."
-msgstr ""
+msgstr "הערות שתופענה עם הכניסה למסוף ותהיינה נגישות מכאן."
 
 #
 msgid "Proceed"
-msgstr ""
+msgstr "להמשיך"
 
 #
 msgid "Rebooting..."
-msgstr ""
+msgstr "מתבצעת הפעלה מחדש…"
 
 #
 msgid "SHA256"
