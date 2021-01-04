@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2020-12-22 12:58:44+0000\n"
+"PO-Revision-Date: 2021-01-04 13:46:17+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -252,7 +252,7 @@ msgstr "כתובת ה־IPv4 העיקרית שהוגדרה למפרק הזה, ע�
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
-msgstr ""
+msgstr "כתובת ה־IPv6 העיקרית שהוגדרה למפרק הזה, עם לוכסן (למשל: ‎2001:db8::1/64)"
 
 #
 msgid "The name of your network community"
@@ -264,15 +264,15 @@ msgstr ""
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
-msgstr ""
+msgstr "קובץ הדמות שהועלה לא מכיל תבנית נתמכת. נא לוודא שבחרת בתבנית דמות גנרית עבור הפלטפורמה שלך."
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr ""
+msgstr "יש להעלות דמות sysupgrade של LibreMesh לכן כדי להחליף את הקושחה הנוכחית."
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr ""
+msgstr "יש להעלות קובץ דמות תואם sysupgrade לכאן כדי להחליף את הקושחה הנוכחית. יש לסמן את „להשאיר את ההגדרות” כדי לשמר את ההגדרות הנוכחיות (דורש דמות קושחה תומכת)."
 
 #
 msgid "Verify"
