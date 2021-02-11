@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-01-28 17:51:01+0000\n"
+"PO-Revision-Date: 2021-02-11 17:52:26+0000\n"
 "X-POT-Import-Date: 2018-05-25 09:39:23+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "על אודות"
 
 #
 msgid "Access Point ESSID (usually name of your network)"
-msgstr ""
+msgstr "ה־ESSID של נקודת הגישה (בדרך כלל שם הרשת שלך)"
 
 #
 msgid "Advanced"
@@ -244,7 +244,7 @@ msgstr ""
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr ""
+msgstr "הדמות לצריבה הועלתה. להלן מופיעים סכום הספרות וגדלי הקבצים, יש להשוות אותם מול הקובץ המקורי כדי לוודא את אמינות הנתונים.<br /> יש ללחוץ על „להמשיך” להלן כדי להתחיל את תהליך הצריבה."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
@@ -260,7 +260,7 @@ msgstr "שם קהילת הרשת שלך"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
-msgstr ""
+msgstr "המערכת מבצעת כעת צריבה.<br /> לא לכבות את המכשיר!<br /> נא להמתין מספר דקות בטרם ניסיון התחברות חוזר. יכול להיות שיהיה עליך לחדש את כתובת המחשב שלך כדי לשוב ולהתחבר למכשיר, תלוי בהגדרות שלך."
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
