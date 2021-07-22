@@ -1,0 +1,295 @@
+# Translation of LibreMesh - Web UI to Ukrainian (українська)
+# Exported from translatewiki.net
+#
+# Author: DDPAT
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2021-07-22 11:06:03+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"X-Generator: MediaWiki 1.36.1; Translate 2021-04-28\n"
+"Plural-Forms: nplurals=3; plural=(n%10 == 1 && n%100 != 11) ? 0 : ( (n%10 >= 2 && n%10 <= 4 && (n%100 < 10 || n%100 >= 20)) ? 1 : 2 );\n"
+
+#
+msgid "(%s available)"
+msgstr "(доступно %s)"
+
+#
+msgid "About"
+msgstr "Опис"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr "Точка доступу ESSID (зазвичай назва вашої мережі)"
+
+#
+msgid "Advanced"
+msgstr "Додатково"
+
+#
+msgid "Attended System Upgrade"
+msgstr "Плановане оновлення системи"
+
+#
+msgid "Cancel"
+msgstr "Скасувати"
+
+#
+msgid "Changes applied."
+msgstr "Застосовані зміни."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "Канал 2,4 ГГц"
+
+#
+msgid "Channel 5 GHz"
+msgstr "Канал 5 ГГц"
+
+#
+msgid "Checksum"
+msgstr "Контрольна сума"
+
+#
+msgid "Community name"
+msgstr "Ім'я спільноти"
+
+#
+msgid "Contact"
+msgstr "Зв'язок"
+
+#
+msgid "Contact information"
+msgstr "Контактна інформація"
+
+#
+msgid "Country code"
+msgstr "Код країни"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "Код країни, що використовується для радіостанцій WiFi"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr "Стандартний канал, що використовується для радіостанцій 2,4 ГГц"
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr "Канал за замовчуванням використовується для радіостанцій 5 ГГц"
+
+#
+msgid "Distance"
+msgstr "Відстань"
+
+#
+msgid "Email"
+msgstr "Електронна пошта"
+
+#
+msgid "Flash Firmware"
+msgstr "Прошивка Flash"
+
+#
+msgid "Flash image..."
+msgstr "Спалах зображення..."
+
+#
+msgid "Flash new firmware image"
+msgstr "Прошити новий образ прошивки"
+
+#
+msgid "Flash operations"
+msgstr "Flash дії"
+
+#
+msgid "Flashing..."
+msgstr "Блимає..."
+
+#
+msgid "General"
+msgstr "Загальне"
+
+#
+msgid "Hostname"
+msgstr "Ім'я хоста"
+
+#
+msgid "Image"
+msgstr "Зображення"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr "Інтернет-пріоритетний шлюз (bmx6)"
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr "Здається, ви намагаєтеся прошити зображення, яке не поміщається у флеш-пам’ять, перевірте файл зображення!"
+
+#
+msgid "Keep settings"
+msgstr "Зберегти налаштування"
+
+#
+msgid "Latitude"
+msgstr "Широта"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "Широта (це також можна налаштувати на вкладці розташування)"
+
+#
+msgid "Loading"
+msgstr "Завантаження"
+
+#
+msgid "Location"
+msgstr "Розташування"
+
+#
+msgid "Logout"
+msgstr "Вийти"
+
+#
+msgid "Longitude"
+msgstr "Довгота"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Довгота (це також можна налаштувати на вкладці розташування)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "Основний IPv4"
+
+#
+msgid "Main IPv6"
+msgstr "Основний IPv6"
+
+#
+msgid "Map location"
+msgstr "Розташування мапи"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr "Максимальна відстань для ланок в метрах (великий вплив на продуктивність)"
+
+#
+msgid "Mesh BSSID"
+msgstr "Сітка BSSID"
+
+#
+msgid "Name"
+msgstr "Назва"
+
+#
+msgid "Name for this node"
+msgstr "Назва цього вузла"
+
+#
+msgid "Network SSID"
+msgstr "Мережевий SSID"
+
+#
+msgid "Notes"
+msgstr "Нотатки"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr "Нотатки, які будуть показані під час входу в консоль і будуть тут під рукою."
+
+#
+msgid "Proceed"
+msgstr "Продовжуйте"
+
+#
+msgid "Rebooting..."
+msgstr "Перезавантаження..."
+
+#
+msgid "SHA256"
+msgstr "SHA256"
+
+#
+msgid "Simple Config"
+msgstr "Проста конфігурація"
+
+#
+msgid "Size"
+msgstr "Розмір"
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr "На жаль, відсутня підтримка системного оновлення; новий образ прошивки потрібно прошивати вручну. Будь ласка, зверніться до вікі, щоб отримати інструкції щодо встановлення пристрою."
+
+#
+msgid "System"
+msgstr "Система"
+
+#
+msgid "System Notes"
+msgstr "Системні нотатки"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr "BSSID (ідентифікатор мережі WiFi), що використовується для мережевої мережі"
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr "Флеш-зображення було завантажено. Нижче наведено контрольну суму та розмір файлу, порівняйте їх із вихідним файлом, щоб забезпечити цілісність даних.<br /> Натисніть \"Продовжити\" нижче, щоб розпочати процедуру спалаху."
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr "Основний IPv4, налаштований для цього вузла, з косою позначкою (наприклад, 1.2.3.4/24)"
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr "Основний IPv6, налаштований для цього вузла, з косою позначкою (наприклад, 2001:db8::1/64)"
+
+#
+msgid "The name of your network community"
+msgstr "Назва вашої мережевої спільноти"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr "Зараз система блимає.<br /> НЕ ВИМИКАЙТЕ ПРИСТРІЙ!<br /> Зачекайте кілька хвилин, перш ніж спробувати підключитися. Можливо, буде потрібно оновити адресу вашого комп’ютера, щоб знову зв’язатися з пристроєм, залежно від ваших налаштувань."
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr "Завантажений файл зображення не містить підтримуваного формату. Переконайтеся, що ви вибрали загальний формат зображення для вашої платформи."
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr "Завантажте сюди зображення для оновлення LibreMesh, щоб замінити запущену прошивку."
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr "Завантажте сюди зображення, сумісне з системним оновленням, щоб замінити запущене програмне забезпечення. Поставте прапорець біля пункту «Зберегти налаштування», щоб зберегти поточну конфігурацію (потрібен сумісний образ прошивки)."
+
+#
+msgid "Verify"
+msgstr "Перевірити"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr "Очікування застосування змін..."
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr "Ви можете вибрати шлюз, щоб визначити пріоритет вашого трафіку для проходження через цей вузол."
+
+#
+msgid "Your email (not required)"
+msgstr "Ваша електронна адреса (не потрібна)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Ваше ім'я або псевдонім (не потрібно)"
+
