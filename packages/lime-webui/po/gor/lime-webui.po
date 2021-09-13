@@ -1,0 +1,295 @@
+# Translation of LibreMesh - Web UI to Gorontalo (Bahasa Hulontalo)
+# Exported from translatewiki.net
+#
+# Author: Marwan Mohamad
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2021-09-13 11:05:19+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gor\n"
+"X-Generator: MediaWiki 1.36.1; Translate 2021-07-26\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#
+msgid "(%s available)"
+msgstr "(%s sadi-sadia)"
+
+#
+msgid "About"
+msgstr "Tomimbihu"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr "Access Point ESSID (usually name of your network)"
+
+#
+msgid "Advanced"
+msgstr "Wumbutiyo"
+
+#
+msgid "Attended System Upgrade"
+msgstr ""
+
+#
+msgid "Cancel"
+msgstr "Bataliya"
+
+#
+msgid "Changes applied."
+msgstr "U biloli'o maa pilopotatapu"
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "Channel 2.4 GHz"
+
+#
+msgid "Channel 5 GHz"
+msgstr "Channel 5 GHz"
+
+#
+msgid "Checksum"
+msgstr "Checksum"
+
+#
+msgid "Community name"
+msgstr "Tanggulo komunitas"
+
+#
+msgid "Contact"
+msgstr "Kontak"
+
+#
+msgid "Contact information"
+msgstr "Informasi kontak"
+
+#
+msgid "Country code"
+msgstr "Kode lo negara"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "Kode lo negara pomake ode radio WiFi"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr "Channel default pilopohuna ode radio 2,4 GHz"
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr "Channel default pilopohuna ode radio 5 GHz"
+
+#
+msgid "Distance"
+msgstr "Walahe"
+
+#
+msgid "Email"
+msgstr "Email"
+
+#
+msgid "Flash Firmware"
+msgstr "Flash Firmware"
+
+#
+msgid "Flash image..."
+msgstr "Flash image..."
+
+#
+msgid "Flash new firmware image"
+msgstr "Flash new firmware image"
+
+#
+msgid "Flash operations"
+msgstr "Flash operations"
+
+#
+msgid "Flashing..."
+msgstr "Flashing..."
+
+#
+msgid "General"
+msgstr "Umum"
+
+#
+msgid "Hostname"
+msgstr "Tanggulo host"
+
+#
+msgid "Image"
+msgstr "Gambari"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr "Internet Prioritized Gateway (bmx6)"
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr ""
+
+#
+msgid "Keep settings"
+msgstr ""
+
+#
+msgid "Latitude"
+msgstr ""
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr ""
+
+#
+msgid "Loading"
+msgstr ""
+
+#
+msgid "Location"
+msgstr "Bilulo'a"
+
+#
+msgid "Logout"
+msgstr "Lumuwalo log"
+
+#
+msgid "Longitude"
+msgstr "Longitude"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Longitude (this can be also configured in location tab)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "Main IPv4"
+
+#
+msgid "Main IPv6"
+msgstr "Main IPv6"
+
+#
+msgid "Map location"
+msgstr "Lokasi Map"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr ""
+
+#
+msgid "Mesh BSSID"
+msgstr ""
+
+#
+msgid "Name"
+msgstr "Tanggulo"
+
+#
+msgid "Name for this node"
+msgstr ""
+
+#
+msgid "Network SSID"
+msgstr ""
+
+#
+msgid "Notes"
+msgstr ""
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr ""
+
+#
+msgid "Proceed"
+msgstr ""
+
+#
+msgid "Rebooting..."
+msgstr ""
+
+#
+msgid "SHA256"
+msgstr ""
+
+#
+msgid "Simple Config"
+msgstr ""
+
+#
+msgid "Size"
+msgstr ""
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr ""
+
+#
+msgid "System"
+msgstr ""
+
+#
+msgid "System Notes"
+msgstr ""
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr ""
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr ""
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr ""
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr ""
+
+#
+msgid "The name of your network community"
+msgstr ""
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr ""
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr ""
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr ""
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr ""
+
+#
+msgid "Verify"
+msgstr ""
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr ""
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr ""
+
+#
+msgid "Your email (not required)"
+msgstr "Email ulemu (ja paralu)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Tanggulumu meyalo toli (ja paralu)"
+
