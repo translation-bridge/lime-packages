@@ -1,0 +1,296 @@
+# Translation of LibreMesh - Web UI to Indonesian (Bahasa Indonesia)
+# Exported from translatewiki.net
+#
+# Author: Akmaie Ajam
+# Author: J Nia30
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2021-11-15 12:06:11+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"X-Generator: MediaWiki 1.38.0-alpha; Translate 2021-10-25\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#
+msgid "(%s available)"
+msgstr "(%s tersedia)"
+
+#
+msgid "About"
+msgstr "Tentang"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr "ESSID Titik Akses (biasanya nama jaringan Anda)"
+
+#
+msgid "Advanced"
+msgstr "Lanjutan"
+
+#
+msgid "Attended System Upgrade"
+msgstr ""
+
+#
+msgid "Cancel"
+msgstr "Batalkan"
+
+#
+msgid "Changes applied."
+msgstr "Perubahan diterapkan."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "Channel/Saluran 2.4 GHz"
+
+#
+msgid "Channel 5 GHz"
+msgstr "Channel/Saluran 5 GHz"
+
+#
+msgid "Checksum"
+msgstr ""
+
+#
+msgid "Community name"
+msgstr "Nama komunitas"
+
+#
+msgid "Contact"
+msgstr "Kontak"
+
+#
+msgid "Contact information"
+msgstr "Informasi kontak"
+
+#
+msgid "Country code"
+msgstr "Kode negara"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "Kode negara yang digunakan untuk radio WiFi"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr "Channel/saluran bawaan yang digunakan untuk radio 2.4 GHz"
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr "Channel/saluran bawaan yang digunakan untuk radio 5 GHz"
+
+#
+msgid "Distance"
+msgstr "Jarak"
+
+#
+msgid "Email"
+msgstr "Email"
+
+#
+msgid "Flash Firmware"
+msgstr ""
+
+#
+msgid "Flash image..."
+msgstr ""
+
+#
+msgid "Flash new firmware image"
+msgstr ""
+
+#
+msgid "Flash operations"
+msgstr ""
+
+#
+msgid "Flashing..."
+msgstr ""
+
+#
+msgid "General"
+msgstr "Umum"
+
+#
+msgid "Hostname"
+msgstr "Nama host"
+
+#
+msgid "Image"
+msgstr "Gambar"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr "Saluran Prioritas Internet (bmx6)"
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr ""
+
+#
+msgid "Keep settings"
+msgstr "Simpan pengaturan"
+
+#
+msgid "Latitude"
+msgstr "Lintang"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "Lintang (ini bisa dikonfigurasikan dalam tab lokasi)"
+
+#
+msgid "Loading"
+msgstr "Memuat"
+
+#
+msgid "Location"
+msgstr "Lokasi"
+
+#
+msgid "Logout"
+msgstr "Keluar log"
+
+#
+msgid "Longitude"
+msgstr "Bujur"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Bujur (ini bisa dikonfigurasikan dalam tab lokasi)"
+
+#
+msgid "MD5"
+msgstr ""
+
+#
+msgid "Main IPv4"
+msgstr ""
+
+#
+msgid "Main IPv6"
+msgstr ""
+
+#
+msgid "Map location"
+msgstr "Lokasi peta"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr ""
+
+#
+msgid "Mesh BSSID"
+msgstr ""
+
+#
+msgid "Name"
+msgstr "Nama"
+
+#
+msgid "Name for this node"
+msgstr "Nama untuk noda ini"
+
+#
+msgid "Network SSID"
+msgstr "SSID Jaringan"
+
+#
+msgid "Notes"
+msgstr "Catatan"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr "Catatan akan ditampilkan saat masuk konsol dan akan tersedia disini."
+
+#
+msgid "Proceed"
+msgstr "Lanjutkan"
+
+#
+msgid "Rebooting..."
+msgstr "Menyalakan kembali..."
+
+#
+msgid "SHA256"
+msgstr ""
+
+#
+msgid "Simple Config"
+msgstr "Konfigurasi Simpel"
+
+#
+msgid "Size"
+msgstr "Ukuran"
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr ""
+
+#
+msgid "System"
+msgstr "Sistem"
+
+#
+msgid "System Notes"
+msgstr "Catatan Sistem"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr "BSSID (pengenal jaringan WiFi) yang digunakan untuk jaringan mesh"
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr ""
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr ""
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr ""
+
+#
+msgid "The name of your network community"
+msgstr "Nama untuk komunitas jaringan Anda"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr ""
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr ""
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr ""
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr ""
+
+#
+msgid "Verify"
+msgstr "Verifikasi"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr "Menunggu untuk menerapkan perubahan..."
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr ""
+
+#
+msgid "Your email (not required)"
+msgstr "Email Anda (opsional)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Nama atau nama panggilan Anda (opsional)"
+
