@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-11-15 12:06:11+0000\n"
+"PO-Revision-Date: 2021-12-16 12:06:09+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +32,7 @@ msgstr "Lanjutan"
 
 #
 msgid "Attended System Upgrade"
-msgstr ""
+msgstr "Peningkatan Sistem Terlibat"
 
 #
 msgid "Cancel"
@@ -52,7 +52,7 @@ msgstr "Channel/Saluran 5 GHz"
 
 #
 msgid "Checksum"
-msgstr ""
+msgstr "Checksum"
 
 #
 msgid "Community name"
@@ -92,23 +92,23 @@ msgstr "Email"
 
 #
 msgid "Flash Firmware"
-msgstr ""
+msgstr "Tulis Firmware"
 
 #
 msgid "Flash image..."
-msgstr ""
+msgstr "Menulis image..."
 
 #
 msgid "Flash new firmware image"
-msgstr ""
+msgstr "Tulis image firmware baru"
 
 #
 msgid "Flash operations"
-msgstr ""
+msgstr "Operasi penulisan"
 
 #
 msgid "Flashing..."
-msgstr ""
+msgstr "Menulis..."
 
 #
 msgid "General"
@@ -128,7 +128,7 @@ msgstr "Saluran Prioritas Internet (bmx6)"
 
 #
 msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
-msgstr ""
+msgstr "Kelihatannya Anda sedang mencoba menulis image yang tidak muat ke memori flash, harap periksa berkas image!"
 
 #
 msgid "Keep settings"
@@ -164,15 +164,15 @@ msgstr "Bujur (ini bisa dikonfigurasikan dalam tab lokasi)"
 
 #
 msgid "MD5"
-msgstr ""
+msgstr "MD5"
 
 #
 msgid "Main IPv4"
-msgstr ""
+msgstr "IPv4 utama"
 
 #
 msgid "Main IPv6"
-msgstr ""
+msgstr "IPv6 utama"
 
 #
 msgid "Map location"
@@ -180,11 +180,11 @@ msgstr "Lokasi peta"
 
 #
 msgid "Max distance for the links in meters (big impact on performance)"
-msgstr ""
+msgstr "Jarak maksimal untuk hubungan dalam meter (memiliki dampak besar pada kinerja)"
 
 #
 msgid "Mesh BSSID"
-msgstr ""
+msgstr "BSSID jaringan"
 
 #
 msgid "Name"
@@ -216,7 +216,7 @@ msgstr "Menyalakan kembali..."
 
 #
 msgid "SHA256"
-msgstr ""
+msgstr "SHA256"
 
 #
 msgid "Simple Config"
@@ -228,7 +228,7 @@ msgstr "Ukuran"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr ""
+msgstr "Maaf, tidak ada dukungan sysupgrade; image firmware baru harus ditulis secara manual. Lihat wiki untuk instruksi penginstalan untuk suatu perangkat."
 
 #
 msgid "System"
@@ -244,15 +244,15 @@ msgstr "BSSID (pengenal jaringan WiFi) yang digunakan untuk jaringan mesh"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr ""
+msgstr "Image flash telah diunggah. Di bawah adalah daftar checksum dan besar berkas, bandingkan dengan berkas asli untuk memastikan integritas data.<br /> Klik \"Lanjutkan\" di bawah untuk memulai prosedur penulisan."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
-msgstr ""
+msgstr "IPv4 utama yang dikonfigurasikan untuk noda ini, dengan notasi garis miring (contoh: 1.2.3.4/24)"
 
 #
 msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
-msgstr ""
+msgstr "IPv6 utama yang dikonfigurasikan untuk noda ini, dengan notasi garis miring (contoh: 2001:db8::1/64)"
 
 #
 msgid "The name of your network community"
@@ -260,19 +260,19 @@ msgstr "Nama untuk komunitas jaringan Anda"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
-msgstr ""
+msgstr "Sistem sedang menulis.<br /> JANGAN MATIKAN PERANGKAT!<br /> Tunggu beberapa menit sebelum Anda mencoba menghubungkan kembali. Anda mungkin harus memperbarui alamat komputer Anda untuk menjangkau perangkatnya lagi, tergantung setelan Anda."
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
-msgstr ""
+msgstr "Berkas image yang diunggah tidak mengandung format yang didukung. Pastikan Anda memilih format image umum untuk platform Anda."
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr ""
+msgstr "Unggah image sysupgrade LibreMesh di sini untuk menggantikan firmware saat ini."
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr ""
+msgstr "Unggah image sysupgrade LibreMesh di sini untuk menggantikan firmware saat ini. Centang \"Tetapkan setelan\" untuk mempertahankan konfigurasi saat ini (memerlukan image firmware yang kompatibel)."
 
 #
 msgid "Verify"
@@ -284,7 +284,7 @@ msgstr "Menunggu untuk menerapkan perubahan..."
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
-msgstr ""
+msgstr "Anda bisa memilih sebuah Pintu Gerbang untuk mengutamakan lalu lintas Anda untuk melewati noda ini."
 
 #
 msgid "Your email (not required)"
