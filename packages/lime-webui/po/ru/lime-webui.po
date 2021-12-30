@@ -1,6 +1,7 @@
 # Translation of LibreMesh - Web UI to Russian (русский)
 # Exported from translatewiki.net
 #
+# Author: DDPAT
 # Author: Movses
 # Author: Okras
 # Author: Redredsonia
@@ -8,7 +9,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2021-10-28 11:07:10+0000\n"
+"PO-Revision-Date: 2021-12-30 12:04:35+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,7 +143,7 @@ msgstr "Широта"
 
 #
 msgid "Latitude (this can be also configured in location tab)"
-msgstr "Широта (этот параметр также можно изменить во вкладке 'позиция')"
+msgstr "Широта (этот параметр также можно изменить во вкладке «позиция»)"
 
 #
 msgid "Loading"
@@ -162,7 +163,7 @@ msgstr "Долгота"
 
 #
 msgid "Longitude (this can be also configured in location tab)"
-msgstr "Долгота (этот параметр также можно изменить во вкладке 'позиция')"
+msgstr "Долгота (этот параметр также можно изменить во вкладке «позиция»)"
 
 #
 msgid "MD5"
@@ -230,7 +231,7 @@ msgstr "Размер"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr "Это устройство не поддерживает обновления через sysupgrade, новая прошивка должна быть записана вручную. Подробнее см. wiki для конкретного устройства."
+msgstr "Это устройство не поддерживает обновления через sysupgrade, новая прошивка должна быть записана вручную. Подробнее см. вики для конкретного устройства."
 
 #
 msgid "System"
@@ -246,7 +247,7 @@ msgstr "Имя сети BSSID, используемое для сети mesh"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
-msgstr "Образ прошивки загружен. Ниже указана контрольная сумма и размер файла, сравните их с оригинальным файлом для проверки целостности.<br />Нажмите \"Начать\" для начала записи."
+msgstr "Образ прошивки загружен. Ниже указана контрольная сумма и размер файла, сравните их с оригинальным файлом для проверки целостности.<br />Нажмите «Начать» для начала записи."
 
 #
 msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
@@ -262,7 +263,7 @@ msgstr "Название вашего сетевого сообщества"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
-msgstr "Обновление системы запущено <br /> НЕ ОТКЛЮЧАЙТЕ ПИТАНИЕ!<br /> Подождите несколько минут, пока связь восстановится. Возможно, потребуется обновить адрес вашего компьютера, чтобы снова получить доступ к устройству, в зависимости от ваших настроек."
+msgstr "Обновление системы запущено<br />НЕ ОТКЛЮЧАЙТЕ ПИТАНИЕ!<br />Подождите несколько минут, пока связь восстановится. Возможно, потребуется обновить адрес вашего компьютера, чтобы снова получить доступ к устройству, в зависимости от ваших настроек."
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
@@ -274,7 +275,7 @@ msgstr "Загрузите образ обновления (sysupgrade) LibreMes
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr "Загрузите сюда sysupgrade-совестимый образ для замены рабочей прошивки. Отметьте гелочкой \"Сохранить настройки\" для сохранения текущей конфигурации (требует совместимого образа прошивки)."
+msgstr "Загрузите сюда sysupgrade-совестимый образ для замены рабочей прошивки. Отметьте галочкой «Сохранить настройки» для сохранения текущей конфигурации (требует совместимого образа прошивки)."
 
 #
 msgid "Verify"
@@ -282,7 +283,7 @@ msgstr "Проверить"
 
 #
 msgid "Waiting for changes to be applied..."
-msgstr "Ожидание применения изменений..."
+msgstr "Ожидание применения изменений…"
 
 #
 msgid "You can choose a Gateway to prioritize your traffic to go through this node."
