@@ -1,12 +1,13 @@
 # Translation of LibreMesh - Web UI to Hebrew (עברית)
 # Exported from translatewiki.net
 #
+# Author: Amire80
 # Author: Erelon
 # Author: YaronSh
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2022-04-28 11:07:00+0000\n"
+"PO-Revision-Date: 2022-07-25 11:08:01+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -260,7 +261,7 @@ msgstr "שם קהילת הרשת שלך"
 
 #
 msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
-msgstr "המערכת מבצעת כעת צריבה.<br /> לא לכבות את המכשיר!<br /> נא להמתין מספר דקות בטרם ניסיון התחברות חוזר. יכול להיות שיהיה עליך לחדש את כתובת המחשב שלך כדי לשוב ולהתחבר למכשיר, תלוי בהגדרות שלך."
+msgstr "המערכת מבצעת כעת צריבה.<br /> לא לכבות את המכשיר!<br /> נא להמתין כמה דקות בטרם ניסיון התחברות חוזר. יכול להיות שיהיה עליך לחדש את כתובת המחשב שלך כדי לשוב ולהתחבר למכשיר, תלוי בהגדרות שלך."
 
 #
 msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
