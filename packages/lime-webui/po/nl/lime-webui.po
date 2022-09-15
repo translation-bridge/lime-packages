@@ -1,0 +1,296 @@
+# Translation of LibreMesh - Web UI to Dutch (Nederlands)
+# Exported from translatewiki.net
+#
+# Author: Elroy
+# Author: McDutchie
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2022-09-15 11:07:14+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"X-Generator: MediaWiki 1.40.0-alpha; Translate 2022-07-28\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#
+msgid "(%s available)"
+msgstr "(%s beschikbaar)"
+
+#
+msgid "About"
+msgstr "Over"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr "ESSID van het toegangspunt (meestal de naam van uw netwerk)"
+
+#
+msgid "Advanced"
+msgstr "Gevorderd"
+
+#
+msgid "Attended System Upgrade"
+msgstr "Begeleide systeemupgrade"
+
+#
+msgid "Cancel"
+msgstr "Annuleren"
+
+#
+msgid "Changes applied."
+msgstr "Wijzigingen toegepast."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "Kanaal 2,4 GHz"
+
+#
+msgid "Channel 5 GHz"
+msgstr "Kanaal 5 GHz"
+
+#
+msgid "Checksum"
+msgstr "Controlesom"
+
+#
+msgid "Community name"
+msgstr "Gemeenschapsnaam"
+
+#
+msgid "Contact"
+msgstr "Contact"
+
+#
+msgid "Contact information"
+msgstr "Contactgegevens"
+
+#
+msgid "Country code"
+msgstr "Landcode"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "Landcode voor WiFi-radio's"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr "Standaardkanaal voor 2,4 GHz-radio's"
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr "Standaardkanaal voor 5 GHz-radio's"
+
+#
+msgid "Distance"
+msgstr "Afstand"
+
+#
+msgid "Email"
+msgstr "E-mail"
+
+#
+msgid "Flash Firmware"
+msgstr "Firmware installeren"
+
+#
+msgid "Flash image..."
+msgstr "Firmwarebestand installeren..."
+
+#
+msgid "Flash new firmware image"
+msgstr "Nieuw firmwarebestand installeren"
+
+#
+msgid "Flash operations"
+msgstr "Installatiehandelingen"
+
+#
+msgid "Flashing..."
+msgstr "Bezig met installeren..."
+
+#
+msgid "General"
+msgstr "Algemeen"
+
+#
+msgid "Hostname"
+msgstr "Hostnaam"
+
+#
+msgid "Image"
+msgstr "Afbeelding"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr "Gateway met prioriteit voor internet (bmx6)"
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr "Het lijkt erop dat u een firmwarebestand probeert te installeren dat niet in het flashgeheugen past. Controleer het firmwarebestand."
+
+#
+msgid "Keep settings"
+msgstr "Instellingen behouden"
+
+#
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "Breedtegraad (kan ook worden ingesteld in het tabblad Locatie)"
+
+#
+msgid "Loading"
+msgstr "Aan het laden"
+
+#
+msgid "Location"
+msgstr "Locatie"
+
+#
+msgid "Logout"
+msgstr "Afmelden"
+
+#
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Lengtegraad (kan ook worden ingesteld in het tabblad Locatie)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "Hoofd-IPv4"
+
+#
+msgid "Main IPv6"
+msgstr "Hoofd-IPv6"
+
+#
+msgid "Map location"
+msgstr "Locatie op de kaart"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr "Maximale afstand voor de verbindingen in meters (grote invloed op de prestaties)"
+
+#
+msgid "Mesh BSSID"
+msgstr "Mesh-BSID"
+
+#
+msgid "Name"
+msgstr "Naam"
+
+#
+msgid "Name for this node"
+msgstr "Naam voor dit knooppunt"
+
+#
+msgid "Network SSID"
+msgstr "Netwerk-SSID"
+
+#
+msgid "Notes"
+msgstr "Opmerkingen"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr "Opmerkingen die worden weergegeven bij het inloggen op de console en hier bij de hand zijn."
+
+#
+msgid "Proceed"
+msgstr "Doorgaan"
+
+#
+msgid "Rebooting..."
+msgstr "Opnieuw opstarten..."
+
+#
+msgid "SHA256"
+msgstr "SHA256"
+
+#
+msgid "Simple Config"
+msgstr "Eenvoudige configuratie"
+
+#
+msgid "Size"
+msgstr "Grootte"
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr "Helaas is er geen sysupgrade-ondersteuning aanwezig; een nieuw firmwarebestand moet handmatig worden geïnstalleerd. Raadpleeg de wiki voor installatie-instructies die voor dit apparaat geschikt zijn."
+
+#
+msgid "System"
+msgstr "Systeem"
+
+#
+msgid "System Notes"
+msgstr "Systeemopmerkingen"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr "De BSSID (WiFi-netwerkidentificator) die wordt gebruikt voor het mesh-netwerk"
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr "Het firmwarebestand is ingeladen. Hieronder vindt u de controlesom en de bestandsgrootte. Vergelijk ze met het originele bestand om de gegevensintegriteit te waarborgen.<br /> Klik hieronder op \"Doorgaan\" om de installatieprocedure te starten."
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr "Het belangrijkste IPv4-adres voor dit knooppunt, in CIDR-notatie (bijv. 1.2.3.4/24)"
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr "Het belangrijkste IPv6-adres voor dit knooppunt, in CIDR-notatie (bijv. 2001:db8::1/64)"
+
+#
+msgid "The name of your network community"
+msgstr "De naam van uw netwerkgemeenschap"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr "Het systeem is nu bezig met installeren.<br /> SCHAKEL HET APPARAAT NIET UIT!<br /> Wacht een paar minuten voordat u opnieuw verbinding probeert te maken. Afhankelijk van uw instellingen kan het nodig zijn om het adres van uw computer te vernieuwen om het apparaat weer te kunnen bereiken."
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr "Het geüploade installatiebestand is niet in een ondersteunde indeling. Zorg ervoor dat u het generieke image-formaat voor uw platform kiest."
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr "Upload hier een LibreMesh sysupgrade-image om de actieve firmware te vervangen."
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr "Upload hier een sysupgrade-compatibele image om de actieve firmware te vervangen. Vink \"Instellingen behouden\" aan om de huidige configuratie te behouden (vereist een compatibele firmware-image)."
+
+#
+msgid "Verify"
+msgstr "Verifiëren"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr "Wachten tot wijzigingen zijn toegepast..."
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr "U kunt een Gateway kiezen om uw verkeer voorrang te geven om via dit knooppunt te gaan."
+
+#
+msgid "Your email (not required)"
+msgstr "Uw e-mail (niet verplicht)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Uw naam of alias (niet verplicht)"
+
