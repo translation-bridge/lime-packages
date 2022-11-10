@@ -1,0 +1,295 @@
+# Translation of LibreMesh - Web UI to Slovenian (slovenščina)
+# Exported from translatewiki.net
+#
+# Author: Eleassar
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2022-11-10 12:07:17+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sl\n"
+"X-Generator: MediaWiki 1.40.0-alpha; Translate 2022-10-21\n"
+"Plural-Forms: nplurals=4; plural=(n%100 == 1) ? 0 : ( (n%100 == 2) ? 1 : ( (n%100 == 3 || n%100 == 4) ? 2 : 3 ) );\n"
+
+#
+msgid "(%s available)"
+msgstr "(%s na voljo)"
+
+#
+msgid "About"
+msgstr "O aplikaciji"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr "Dostopna točka ESSID (običajno ime vašega omrežja)"
+
+#
+msgid "Advanced"
+msgstr "Napredno"
+
+#
+msgid "Attended System Upgrade"
+msgstr "Spremljana nadgradnja sistema"
+
+#
+msgid "Cancel"
+msgstr "Prekliči"
+
+#
+msgid "Changes applied."
+msgstr "Uporabljene spremembe."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "Kanal 2,4 GHz"
+
+#
+msgid "Channel 5 GHz"
+msgstr "Kanal 5 GHz"
+
+#
+msgid "Checksum"
+msgstr "Kontrolna vsota"
+
+#
+msgid "Community name"
+msgstr "Ime skupnosti"
+
+#
+msgid "Contact"
+msgstr "Stik"
+
+#
+msgid "Contact information"
+msgstr "Podatki za stik"
+
+#
+msgid "Country code"
+msgstr "Oznaka države"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr "Oznaka države, ki se uporablja za oddajanje WiFi"
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr "Privzeti kanal za oddajnike na 2,4 GHz"
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr "Privzeti kanal za oddajnike na 5 GHz"
+
+#
+msgid "Distance"
+msgstr "Razdalja"
+
+#
+msgid "Email"
+msgstr "E-pošta"
+
+#
+msgid "Flash Firmware"
+msgstr "Posodobi upravljanje naprav"
+
+#
+msgid "Flash image..."
+msgstr "Posodobi sliko ..."
+
+#
+msgid "Flash new firmware image"
+msgstr "Naloži novo sliko upravljanja naprav"
+
+#
+msgid "Flash operations"
+msgstr "Operacije posodobitve"
+
+#
+msgid "Flashing..."
+msgstr "Posodabljam ..."
+
+#
+msgid "General"
+msgstr "Splošno"
+
+#
+msgid "Hostname"
+msgstr "Ime gostitelja"
+
+#
+msgid "Image"
+msgstr "Slika"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr "Internetni prednostni prehod (bmx6)"
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr "Videti je, da poskušate posodobiti sliko, ki ne spada v bliskovni pomnilnik, preverite slikovno datoteko!"
+
+#
+msgid "Keep settings"
+msgstr "Ohrani nastavitve"
+
+#
+msgid "Latitude"
+msgstr "Zemljepisna širina"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "Zemljepisna širina (to je mogoče konfigurirati tudi na zavihku lokacije)"
+
+#
+msgid "Loading"
+msgstr "Nalagam"
+
+#
+msgid "Location"
+msgstr "Lokacija"
+
+#
+msgid "Logout"
+msgstr "Odjava"
+
+#
+msgid "Longitude"
+msgstr "Zemljepisna dolžina"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Zemljepisna širina (to je mogoče konfigurirati tudi na zavihku lokacije)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "Glavni IPv4"
+
+#
+msgid "Main IPv6"
+msgstr "Glavni IPv6"
+
+#
+msgid "Map location"
+msgstr "Mesto na zemljevidu"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr "Največja razdalja za povezave v metrih (velik vpliv na zmogljivost)"
+
+#
+msgid "Mesh BSSID"
+msgstr "Mrežni BSSID"
+
+#
+msgid "Name"
+msgstr "Ime"
+
+#
+msgid "Name for this node"
+msgstr "Ime za to vozlišče"
+
+#
+msgid "Network SSID"
+msgstr "Omrežni SSID"
+
+#
+msgid "Notes"
+msgstr "Opombe"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr "Opombe, ki bodo prikazane ob prijavi v konzolo in bodo tukaj pri roki."
+
+#
+msgid "Proceed"
+msgstr "Nadaljuj"
+
+#
+msgid "Rebooting..."
+msgstr "Ponovni zagon ..."
+
+#
+msgid "SHA256"
+msgstr "SHA256"
+
+#
+msgid "Simple Config"
+msgstr "Preprosta konfiguracija"
+
+#
+msgid "Size"
+msgstr "Velikost"
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr "Žal ni prisotna podpora za sistemsko nadgradnjo; novo sliko vdelane programske opreme je treba zagnati ročno. Za navodila za namestitev za posamezne naprave glejte viki."
+
+#
+msgid "System"
+msgstr "Sistem"
+
+#
+msgid "System Notes"
+msgstr "Sistemske opombe"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr "BSSID (identifikator omrežja WiFi), ki se uporablja za zapleteno omrežje"
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr "Bliskovna slika je bila naložena. Spodaj sta navedeni kontrolna vsota in velikost datoteke, primerjajte ju z izvorno datoteko, da zagotovite celovitost podatkov.<br /> Da začnete postopek bliskanje, spodaj kliknite »Naprej«."
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr "Glavni IPv4, konfiguriran za to vozlišče, s poševnico (npr. 1.2.3.4/24)"
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr "Glavni IPv6, konfiguriran za to vozlišče, s poševnico (npr. 2001:db8::1/64)"
+
+#
+msgid "The name of your network community"
+msgstr "Ime vaše omrežne skupnosti"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr "Sistem zdaj je v postopku bliskanja.<br /> NE IZKLJUČITE NAPRAVE!<br /> Počakajte nekaj minut, preden poskusite znova vzpostaviti povezavo. Morda bo treba obnoviti naslov vašega računalnika, da znova dosežete napravo, odvisno od vaših nastavitev."
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr "Naložena slikovna datoteka ne vsebuje podprtega formata. Prepričajte se, da ste za svojo platformo izbrali generičen slikovni format."
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr "Tukaj naložite sliko sistemske nadgradnje LibreMesh, da zamenjate delujočo vdelano programsko opremo."
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr "Tukaj naložite sliko, združljivo s sistemsko nadgradnjo, da zamenjate delujočo vdelano programsko opremo. Označite »Ohrani nastavitve«, da obdržite trenutno konfiguracijo (zahteva združljivo sliko vdelane programske opreme)."
+
+#
+msgid "Verify"
+msgstr "Preveri"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr "Čakanje na uveljavitev sprememb ..."
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr "Izberete lahko prehod, ki naj ima za vaš promet prednost."
+
+#
+msgid "Your email (not required)"
+msgstr "Vaš e-poštni naslov (ni obvezno)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Vaše ime ali vzdevek (ni obvezno)"
+
