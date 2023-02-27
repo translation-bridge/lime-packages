@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-01-26 12:09:00+0000\n"
+"PO-Revision-Date: 2023-02-27 12:06:19+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "מתקדם"
 
 #
 msgid "Attended System Upgrade"
-msgstr ""
+msgstr "שדרוג מערכת מפוקח"
 
 #
 msgid "Cancel"
@@ -185,7 +185,7 @@ msgstr "מרחק מרבי של הקישורים במטרים (השפעה ניכ�
 
 #
 msgid "Mesh BSSID"
-msgstr ""
+msgstr "BSSID של Mesh"
 
 #
 msgid "Name"
@@ -229,7 +229,7 @@ msgstr "גודל"
 
 #
 msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
-msgstr ""
+msgstr "מצטערים, אין תמיכה ב־syupgrade; יש להתקין ידנית קושחה חדשה.נא לעיין בוויקי להוראות התקנה ספציפיות למכשיר."
 
 #
 msgid "System"
@@ -241,7 +241,7 @@ msgstr "הערות מערכת"
 
 #
 msgid "The BSSID (WiFi network identifier) used for the mesh network"
-msgstr ""
+msgstr "ה־BSSID (מזהה רשת WiFi) שמשמש לרשת ה־mesh"
 
 #
 msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
