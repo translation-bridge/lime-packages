@@ -1,11 +1,11 @@
-# Translation of LibreMesh - Web UI to српски (ћирилица) (српски (ћирилица))
+# Translation of LibreMesh - Web UI to Serbian (Cyrillic script) (српски (ћирилица))
 # Exported from translatewiki.net
 #
 # Author: BadDog
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-10-12 11:10:34+0000\n"
+"PO-Revision-Date: 2023-10-26 11:10:33+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
