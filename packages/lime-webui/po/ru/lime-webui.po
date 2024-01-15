@@ -5,12 +5,13 @@
 # Author: Ice bulldog
 # Author: Movses
 # Author: Okras
+# Author: Pacha Tchernof
 # Author: Redredsonia
 # Author: Viktoriya Yutkina
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2023-12-07 12:13:55+0000\n"
+"PO-Revision-Date: 2024-01-15 12:09:01+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -148,7 +149,7 @@ msgstr "Широта (этот параметр также можно измен
 
 #
 msgid "Loading"
-msgstr "Загрузка"
+msgstr "Загружается"
 
 #
 msgid "Location"
