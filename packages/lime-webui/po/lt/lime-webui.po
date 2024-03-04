@@ -1,0 +1,298 @@
+# Translation of LibreMesh - Web UI to Lithuanian (lietuvių)
+# Exported from translatewiki.net
+#
+# Author: Nokeoo
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2024-03-04 12:08:15+0000\n"
+"X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Project-Id-Version: LibreMesh - Web UI\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.42.0-alpha; Translate 2024-01-22\n"
+"Plural-Forms: nplurals=3; plural=(n%10 == 1 && n%100 != 11) ? 0 : ( (n%10 >= 2 && (n%100 < 10 || n%100 >= 20)) ? 1 : 2 );\n"
+
+#
+msgid "(%s available)"
+msgstr "( %s pasiekiama)"
+
+#
+msgid "About"
+msgstr "Apie"
+
+#
+msgid "Access Point ESSID (usually name of your network)"
+msgstr ""
+
+#
+msgid "Advanced"
+msgstr "Išplėstinis"
+
+#
+msgid "Attended System Upgrade"
+msgstr ""
+
+#
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#
+msgid "Changes applied."
+msgstr "Pakeitimai pritaikyti."
+
+#
+msgid "Channel 2.4 GHz"
+msgstr "2,4 GHz kanalas"
+
+#
+msgid "Channel 5 GHz"
+msgstr "5 GHz kanalas"
+
+#
+msgid "Checksum"
+msgstr ""
+
+#
+msgid "Community name"
+msgstr "Bendruomenės pavadinimas"
+
+#
+msgid "Contact"
+msgstr "Kontaktas"
+
+#
+msgid "Contact information"
+msgstr "Kontaktinė informacija"
+
+#
+msgid "Country code"
+msgstr "Šalies kodas"
+
+#
+msgid "Country code used for WiFi radios"
+msgstr ""
+
+#
+msgid "Default channel used for 2.4 GHz radios"
+msgstr ""
+
+#
+msgid "Default channel used for 5 GHz radios"
+msgstr ""
+
+#
+msgid "Distance"
+msgstr "Atstumas"
+
+#
+msgid "Email"
+msgstr "El. paštas"
+
+#
+msgid "Flash Firmware"
+msgstr ""
+
+#
+msgid "Flash image..."
+msgstr ""
+
+#
+msgid "Flash new firmware image"
+msgstr ""
+
+#
+msgid "Flash operations"
+msgstr ""
+
+#
+msgid "Flashing..."
+msgstr ""
+
+#
+msgid "General"
+msgstr "Bendra"
+
+#
+msgid "Hostname"
+msgstr ""
+
+#
+msgid "Image"
+msgstr "Paveikslėlis"
+
+#
+msgid "Internet Prioritized Gateway (bmx6)"
+msgstr ""
+
+#
+msgid "It appears that you are trying to flash an image that does not fit into the flash memory, please verify the image file!"
+msgstr ""
+
+#
+msgid "Keep settings"
+msgstr "Išlaikyti nustatymus"
+
+#
+msgid "Latitude"
+msgstr "Platuma"
+
+#
+msgid "Latitude (this can be also configured in location tab)"
+msgstr "Platuma (tai taip pat galima sukonfigūruoti vietos skirtuke)"
+
+#
+msgid "Loading"
+msgstr "Įkeliama"
+
+#
+msgid "Location"
+msgstr "Vieta"
+
+#
+msgid "Logout"
+msgstr "Atsijungti"
+
+#
+msgid "Longitude"
+msgstr "Ilguma"
+
+#
+msgid "Longitude (this can be also configured in location tab)"
+msgstr "Ilguma (tai taip pat galima sukonfigūruoti vietos skirtuke)"
+
+#
+msgid "MD5"
+msgstr "MD5"
+
+#
+msgid "Main IPv4"
+msgstr "Pagrindinis IPv4"
+
+#
+msgid "Main IPv6"
+msgstr "Pagrindinis IPv6"
+
+#
+msgid "Map location"
+msgstr "Vieta žemėlapyje"
+
+#
+msgid "Max distance for the links in meters (big impact on performance)"
+msgstr ""
+
+#
+msgid "Mesh BSSID"
+msgstr ""
+
+#
+msgid "Name"
+msgstr "Pavadinimas"
+
+#
+msgid "Name for this node"
+msgstr ""
+
+#
+msgid "Network SSID"
+msgstr "Tinklo SSID"
+
+#
+msgid "Notes"
+msgstr "Pastabos"
+
+#
+msgid "Notes that will be shown on console login and will be at hand here."
+msgstr "Pastabos, kurios bus rodomos prisijungus prie konsolės ir bus po ranka čia."
+
+#
+msgid "Proceed"
+msgstr "Tęsti"
+
+#
+msgid "Rebooting..."
+msgstr "Paleidžiama iš naujo..."
+
+#
+msgid "SHA256"
+msgstr "SHA256"
+
+#
+msgid "Simple Config"
+msgstr "Paprasta konfigūracija"
+
+#
+msgid "Size"
+msgstr "Dydis"
+
+#
+msgid "Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions."
+msgstr ""
+
+#
+msgid "System"
+msgstr "Sistema"
+
+#
+msgid "System Notes"
+msgstr "Sistemos pastabos"
+
+#
+msgid "The BSSID (WiFi network identifier) used for the mesh network"
+msgstr ""
+
+#
+msgid "The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity.<br /> Click \"Proceed\" below to start the flash procedure."
+msgstr ""
+
+#
+msgid "The main IPv4 configured for this node, with slash notation (for ex. 1.2.3.4/24)"
+msgstr ""
+
+#
+msgid "The main IPv6 configured for this node, with slash notation (for ex. 2001:db8::1/64)"
+msgstr ""
+
+#
+msgid "The name of your network community"
+msgstr "Jūsų tinklo bendruomenės pavadinimas"
+
+#
+msgid "The system is flashing now.<br /> DO NOT POWER OFF THE DEVICE!<br /> Wait a few minutes before you try to reconnect. It might be necessary to renew the address of your computer to reach the device again, depending on your settings."
+msgstr ""
+
+#
+msgid "The uploaded image file does not contain a supported format. Make sure that you choose the generic image format for your platform."
+msgstr ""
+
+#
+msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
+msgstr ""
+
+#
+msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
+msgstr ""
+
+#
+msgid "Verify"
+msgstr "Patvirtinti"
+
+#
+msgid "Waiting for changes to be applied..."
+msgstr "Laukiama, kol pakeitimai bus pritaikyti..."
+
+#
+msgid "You can choose a Gateway to prioritize your traffic to go through this node."
+msgstr ""
+
+#
+msgid "Your email (not required)"
+msgstr "Jūsų el. pašto adresas (nebūtina)"
+
+#
+msgid "Your name or alias (not required)"
+msgstr "Jūsų vardas arba slapyvardis (nebūtina)"
+
