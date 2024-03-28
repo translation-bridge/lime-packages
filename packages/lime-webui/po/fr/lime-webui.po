@@ -2,13 +2,14 @@
 # Exported from translatewiki.net
 #
 # Author: Gomoko
+# Author: Thibaut120094
 # Author: Urhixidur
 # Author: Verdy p
 # Author: Wladek92
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2024-01-25 12:09:50+0000\n"
+"PO-Revision-Date: 2024-03-28 12:09:13+0000\n"
 "X-POT-Import-Date: 2021-05-26 12:39:54+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -273,11 +274,11 @@ msgstr "Le fichier image téléchargé ne contient aucun format pris en charge. 
 
 #
 msgid "Upload a LibreMesh sysupgrade image here to replace the running firmware."
-msgstr "Télécharger une image de mise à jour système LibreMesh ici pour remplacer le micrologiciel actuel."
+msgstr "Téléverser une image de mise à jour système LibreMesh ici pour remplacer le micrologiciel actuel."
 
 #
 msgid "Upload a sysupgrade-compatible image here to replace the running firmware. Check \"Keep settings\" to retain the current configuration (requires a compatible firmware image)."
-msgstr "Télécharger une image compatible mise à jour système ici pour remplacer le micrologiciel actuel. Cochez « Conserver les paramètres » pour conserver la configuration actuelle (nécessite une image de micrologiciel compatible)."
+msgstr "Téléverser une image compatible mise à jour système ici pour remplacer le micrologiciel actuel. Cochez « Conserver les paramètres » pour conserver la configuration actuelle (nécessite une image de micrologiciel compatible)."
 
 #
 msgid "Verify"
